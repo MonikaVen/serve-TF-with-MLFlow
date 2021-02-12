@@ -14,10 +14,6 @@ BATCH_SIZE=100
 ACCURACY=0.7
 INPUT_EXAMPLE="{image: image}"
 os.environ['MLFLOW_TRACKING_URI'] = 'http://localhost:8000/'
-# con = psycopg2.connect(database='mlflow_db', user='mlflow_user',
-#     password='mlflow')
-# cur = con.cursor()
-# cur.execute('SELECT version()')
 
 #from the train script
 dictionary = {
@@ -27,20 +23,18 @@ dictionary = {
   "accuracy": ACCURACY
 }
 
-input_schema = Schema([
-  ColSpec("double", "sepal length (cm)"),
-  ColSpec("double", "sepal width (cm)"),
-  ColSpec("double", "petal length (cm)"),
-  ColSpec("double", "petal width (cm)"),
-])
-output_schema = Schema([ColSpec("long")])
-signature = ModelSignature(inputs=input_schema, outputs=output_schema)
+# input_schema = Schema([
+#   ColSpec("double", "sepal length (cm)"),
+#   ColSpec("double", "sepal width (cm)"),
+#   ColSpec("double", "petal length (cm)"),
+#   ColSpec("double", "petal width (cm)"),
+# ])
+# output_schema = Schema([ColSpec("long")])
+# signature = ModelSignature(inputs=input_schema, outputs=output_schema)
 
 
 
 model_path = "./models/clothes/1/"
-#model_uri = "mysql+pymysql://'mlflow-user':'password'@localhost:3306/mlflowruns"
-sqlite = "sqlite:///store.db"
 postgres = "postgresql+psycopg2://mlflow_user:mlflow@localhost/mlflow_db"
 def main():
     with mlflow.start_run(experiment_id=0, run_name='test_clothes'):
