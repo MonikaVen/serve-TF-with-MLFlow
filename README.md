@@ -1,4 +1,4 @@
-#Dependencies
+## Dependencies
 
 Make sure you have python, tensorflow and postgres installed:
 
@@ -7,7 +7,7 @@ apt install libgl1-mesa-glx
 apt install postgresql postgresql-contrib postgresql-server-dev-all
 sudo apt install gcc`
 
-Install MLFlow:
+## Install MLFlow:
 
 `pip3 install mlflow`
 
@@ -23,7 +23,7 @@ GRANT ALL PRIVILEGES ON DATABASE mlflow_db TO mlflow_user;`
 
 `sudo pip3 install tensorflow`
 
-Register the model with:
+## Register the model with:
 
 `python3 serve.py`
 
