@@ -25,7 +25,7 @@ GRANT ALL PRIVILEGES ON DATABASE mlflow_db TO mlflow_user;`
 
 ## Register the model with:
 
-`python3 serve.py`
+`python3 train.py`
 
 Run MLFlow:
 
