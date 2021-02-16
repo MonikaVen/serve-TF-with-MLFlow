@@ -1,0 +1,15 @@
+artifact_uri: file:///home/monika/Documents/Test/mlruns/0/404f5ba433e9422d8f73c6e76c9cafcb/artifacts
+end_time: 1613475145434
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+name: ''
+run_id: 404f5ba433e9422d8f73c6e76c9cafcb
+run_uuid: 404f5ba433e9422d8f73c6e76c9cafcb
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1613475145040
+status: 3
+tags: []
+user_id: monika

@@ -1,6 +1,0 @@
-{
-  "model_name": "clothes",
-  "train_steps": 1000,
-  "batch_size": 100,
-  "accuracy": 0.7
-}

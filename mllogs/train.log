@@ -1,0 +1,1298 @@
+DEBUG:root:2021-02-16 17:55:14 Starting mlflow run...
+DEBUG:git.cmd:Popen(['git', 'version'], cwd=/home/monika/Documents/Test, universal_newlines=False, shell=None, istream=None)
+DEBUG:git.cmd:Popen(['git', 'version'], cwd=/home/monika/Documents/Test, universal_newlines=False, shell=None, istream=None)
+DEBUG:root:2021-02-16 17:55:14 Mlflow run started.
+DEBUG:root:2021-02-16 17:55:14 Started loading data...
+DEBUG:root:2021-02-16 17:55:15 train.parquet loaded
+DEBUG:root:2021-02-16 17:55:15 test.parquet loaded
+DEBUG:root:2021-02-16 17:55:15 Ensuring unique data...
+DEBUG:root:2021-02-16 17:55:15 Done taking unique.
+DEBUG:root:2021-02-16 17:55:15 Data limit is less than data length.
+DEBUG:root:2021-02-16 17:55:15 Loading images.
+DEBUG:root:2021-02-16 17:55:15 Loaded images successfully.
+DEBUG:root:2021-02-16 17:55:26 Creating a model...
+DEBUG:root:2021-02-16 17:55:29 Created model successfully.
+DEBUG:root:2021-02-16 17:55:29 Getting model metrics...
+DEBUG:root:2021-02-16 17:55:29 Model metrics calculated.
+DEBUG:root:2021-02-16 17:55:29 Compiling model...
+DEBUG:root:2021-02-16 17:55:29 Model compiled.
+DEBUG:root:2021-02-16 17:55:29 Fitting model...
+WARNING:tensorflow:From /home/monika/anaconda3/lib/python3.8/site-packages/tensorflow/python/ops/summary_ops_v2.py:1277: stop (from tensorflow.python.eager.profiler) is deprecated and will be removed after 2020-07-01.
+Instructions for updating:
+use `tf.profiler.experimental.stop` instead.
+DEBUG:root:2021-02-16 17:56:41 Fitted model successfully.
+DEBUG:root:2021-02-16 17:56:41 Saving model...
+WARNING:tensorflow:From /home/monika/anaconda3/lib/python3.8/site-packages/tensorflow/python/training/tracking/tracking.py:111: Model.state_updates (from tensorflow.python.keras.engine.training) is deprecated and will be removed in a future version.
+Instructions for updating:
+This property should not be used in TensorFlow 2.0, as updates are applied automatically.
+WARNING:tensorflow:From /home/monika/anaconda3/lib/python3.8/site-packages/tensorflow/python/training/tracking/tracking.py:111: Layer.updates (from tensorflow.python.keras.engine.base_layer) is deprecated and will be removed in a future version.
+Instructions for updating:
+This property should not be used in TensorFlow 2.0, as updates are applied automatically.
+INFO:tensorflow:Assets written to: ./models/e093dd8e362a428f89ed71d5c62cb5fc/assets
+DEBUG:root:2021-02-16 17:57:14 Saved model successfully.
+DEBUG:root:2021-02-16 17:57:14 Evaluating models...
+DEBUG:root:2021-02-16 17:57:14 Loading images.
+DEBUG:root:2021-02-16 17:57:14 Loaded images successfully.
+DEBUG:root:2021-02-16 17:57:36 Model evaluated successfully.
+DEBUG:root:2021-02-16 17:57:36 Ending mlflow run.
+DEBUG:root:2021-02-16 19:36:46 Starting mlflow run...
+DEBUG:git.cmd:Popen(['git', 'version'], cwd=/home/monika/Documents/Test, universal_newlines=False, shell=None, istream=None)
+DEBUG:git.cmd:Popen(['git', 'version'], cwd=/home/monika/Documents/Test, universal_newlines=False, shell=None, istream=None)
+DEBUG:root:2021-02-16 19:36:46 Mlflow run started.
+ERROR:root:2021-02-16 19:36:46 Failed to run.
+DEBUG:root:2021-02-16 19:37:33 Starting mlflow run...
+DEBUG:git.cmd:Popen(['git', 'version'], cwd=/home/monika/Documents/Test, universal_newlines=False, shell=None, istream=None)
+DEBUG:git.cmd:Popen(['git', 'version'], cwd=/home/monika/Documents/Test, universal_newlines=False, shell=None, istream=None)
+DEBUG:root:2021-02-16 19:37:33 Mlflow run started.
+ERROR:root:2021-02-16 19:37:33 Failed to run.
+DEBUG:root:2021-02-16 19:38:30 Starting mlflow run...
+DEBUG:git.cmd:Popen(['git', 'version'], cwd=/home/monika/Documents/Test, universal_newlines=False, shell=None, istream=None)
+DEBUG:git.cmd:Popen(['git', 'version'], cwd=/home/monika/Documents/Test, universal_newlines=False, shell=None, istream=None)
+DEBUG:root:2021-02-16 19:38:30 Mlflow run started.
+ERROR:root:2021-02-16 19:38:30 Failed to run.
+DEBUG:root:2021-02-16 20:05:47 Starting mlflow run...
+DEBUG:git.cmd:Popen(['git', 'version'], cwd=/home/monika/Documents/Test, universal_newlines=False, shell=None, istream=None)
+DEBUG:git.cmd:Popen(['git', 'version'], cwd=/home/monika/Documents/Test, universal_newlines=False, shell=None, istream=None)
+DEBUG:root:2021-02-16 20:05:47 Mlflow run started.
+ERROR:root:2021-02-16 20:05:47 Failed to run.
+DEBUG:root:2021-02-16 20:22:45 Starting mlflow run...
+DEBUG:git.cmd:Popen(['git', 'version'], cwd=/home/monika/Documents/Test, universal_newlines=False, shell=None, istream=None)
+DEBUG:git.cmd:Popen(['git', 'version'], cwd=/home/monika/Documents/Test, universal_newlines=False, shell=None, istream=None)
+DEBUG:root:2021-02-16 20:22:46 Mlflow run started.
+ERROR:root:2021-02-16 20:22:46 Failed to run.
+DEBUG:root:2021-02-16 20:32:50 Starting mlflow run...
+DEBUG:git.cmd:Popen(['git', 'version'], cwd=/home/monika/Documents/Test, universal_newlines=False, shell=None, istream=None)
+DEBUG:git.cmd:Popen(['git', 'version'], cwd=/home/monika/Documents/Test, universal_newlines=False, shell=None, istream=None)
+DEBUG:root:2021-02-16 20:32:50 Mlflow run started.
+ERROR:root:2021-02-16 20:32:50 Failed to run.
+DEBUG:root:2021-02-16 20:32:58 Starting mlflow run...
+DEBUG:git.cmd:Popen(['git', 'version'], cwd=/home/monika/Documents/Test, universal_newlines=False, shell=None, istream=None)
+DEBUG:git.cmd:Popen(['git', 'version'], cwd=/home/monika/Documents/Test, universal_newlines=False, shell=None, istream=None)
+DEBUG:root:2021-02-16 20:32:59 Mlflow run started.
+ERROR:root:2021-02-16 20:32:59 Failed to run.
+DEBUG:root:2021-02-16 20:36:17 Starting mlflow run...
+DEBUG:git.cmd:Popen(['git', 'version'], cwd=/home/monika/Documents/Test, universal_newlines=False, shell=None, istream=None)
+DEBUG:git.cmd:Popen(['git', 'version'], cwd=/home/monika/Documents/Test, universal_newlines=False, shell=None, istream=None)
+DEBUG:root:2021-02-16 20:36:17 Mlflow run started.
+ERROR:root:2021-02-16 20:36:17 Failed to run.
+DEBUG:root:2021-02-16 20:37:20 Starting mlflow run...
+DEBUG:git.cmd:Popen(['git', 'version'], cwd=/home/monika/Documents/Test, universal_newlines=False, shell=None, istream=None)
+DEBUG:git.cmd:Popen(['git', 'version'], cwd=/home/monika/Documents/Test, universal_newlines=False, shell=None, istream=None)
+DEBUG:root:2021-02-16 20:37:20 Mlflow run started.
+ERROR:root:2021-02-16 20:37:21 Failed to run.
+DEBUG:root:2021-02-16 20:40:35 Starting mlflow run...
+DEBUG:git.cmd:Popen(['git', 'version'], cwd=/home/monika/Documents/Test, universal_newlines=False, shell=None, istream=None)
+DEBUG:git.cmd:Popen(['git', 'version'], cwd=/home/monika/Documents/Test, universal_newlines=False, shell=None, istream=None)
+DEBUG:root:2021-02-16 20:40:35 Mlflow run started.
+DEBUG:root:2021-02-16 20:40:35 Getting parameters...
+ERROR:root:2021-02-16 20:40:35 Error getting the parameters.
+DEBUG:root:2021-02-16 20:40:35 Started loading data...
+ERROR:root:2021-02-16 20:40:35 Failed to load train.parquet.
+ERROR:root:2021-02-16 20:40:35 Failed to load test.parquet.
+DEBUG:root:2021-02-16 20:40:35 Ensuring unique data...
+ERROR:root:2021-02-16 20:40:35 Failed to ensure unique.
+ERROR:root:2021-02-16 20:40:35 Failed to run.
+DEBUG:root:2021-02-16 20:42:18 Starting mlflow run...
+DEBUG:git.cmd:Popen(['git', 'version'], cwd=/home/monika/Documents/Test, universal_newlines=False, shell=None, istream=None)
+DEBUG:git.cmd:Popen(['git', 'version'], cwd=/home/monika/Documents/Test, universal_newlines=False, shell=None, istream=None)
+DEBUG:root:2021-02-16 20:42:18 Mlflow run started.
+DEBUG:root:2021-02-16 20:42:18 Getting parameters...
+ERROR:root:2021-02-16 20:42:18 Error getting the parameters.
+DEBUG:root:2021-02-16 20:42:18 Started loading data...
+ERROR:root:2021-02-16 20:42:18 Failed to load train.parquet.
+ERROR:root:2021-02-16 20:42:18 Failed to load test.parquet.
+DEBUG:root:2021-02-16 20:42:18 Ensuring unique data...
+ERROR:root:2021-02-16 20:42:18 Failed to ensure unique.
+ERROR:root:2021-02-16 20:42:18 Failed to run.
+DEBUG:root:2021-02-16 20:43:08 Starting mlflow run...
+DEBUG:git.cmd:Popen(['git', 'version'], cwd=/home/monika/Documents/Test, universal_newlines=False, shell=None, istream=None)
+DEBUG:git.cmd:Popen(['git', 'version'], cwd=/home/monika/Documents/Test, universal_newlines=False, shell=None, istream=None)
+DEBUG:root:2021-02-16 20:43:08 Mlflow run started.
+DEBUG:root:2021-02-16 20:43:08 Getting parameters...
+DEBUG:root:2021-02-16 20:43:08 Started loading data...
+DEBUG:root:2021-02-16 20:43:08 train.parquet loaded
+DEBUG:root:2021-02-16 20:43:08 test.parquet loaded
+DEBUG:root:2021-02-16 20:43:08 Ensuring unique data...
+DEBUG:root:2021-02-16 20:43:08 Done taking unique.
+DEBUG:root:2021-02-16 20:43:08 Data limit is less than data length.
+DEBUG:root:2021-02-16 20:43:08 Loading images.
+DEBUG:root:2021-02-16 20:43:08 Loaded images successfully.
+ERROR:root:2021-02-16 20:43:14 Failed to run.
+DEBUG:root:2021-02-16 20:43:27 Starting mlflow run...
+DEBUG:git.cmd:Popen(['git', 'version'], cwd=/home/monika/Documents/Test, universal_newlines=False, shell=None, istream=None)
+DEBUG:git.cmd:Popen(['git', 'version'], cwd=/home/monika/Documents/Test, universal_newlines=False, shell=None, istream=None)
+DEBUG:root:2021-02-16 20:43:27 Mlflow run started.
+DEBUG:root:2021-02-16 20:43:27 Getting parameters...
+DEBUG:root:2021-02-16 20:43:27 Done getting parameters.
+DEBUG:root:2021-02-16 20:43:27 Started loading data...
+DEBUG:root:2021-02-16 20:43:27 train.parquet loaded
+DEBUG:root:2021-02-16 20:43:27 test.parquet loaded
+DEBUG:root:2021-02-16 20:43:27 Ensuring unique data...
+DEBUG:root:2021-02-16 20:43:27 Done taking unique.
+DEBUG:root:2021-02-16 20:43:27 Data limit is less than data length.
+DEBUG:root:2021-02-16 20:43:27 Loading images.
+DEBUG:root:2021-02-16 20:43:27 Loaded images successfully.
+DEBUG:root:2021-02-16 20:43:33 Creating a model...
+DEBUG:root:2021-02-16 20:43:35 Created model successfully.
+DEBUG:root:2021-02-16 20:43:35 Getting model metrics...
+DEBUG:root:2021-02-16 20:43:35 Model metrics calculated.
+DEBUG:root:2021-02-16 20:43:35 Compiling model...
+DEBUG:root:2021-02-16 20:43:35 Model compiled.
+DEBUG:root:2021-02-16 20:43:35 Fitting model...
+WARNING:tensorflow:From /home/monika/anaconda3/lib/python3.8/site-packages/tensorflow/python/ops/summary_ops_v2.py:1277: stop (from tensorflow.python.eager.profiler) is deprecated and will be removed after 2020-07-01.
+Instructions for updating:
+use `tf.profiler.experimental.stop` instead.
+DEBUG:root:2021-02-16 20:44:20 Fitted model successfully.
+DEBUG:root:2021-02-16 20:44:20 Saving model...
+WARNING:tensorflow:From /home/monika/anaconda3/lib/python3.8/site-packages/tensorflow/python/training/tracking/tracking.py:111: Model.state_updates (from tensorflow.python.keras.engine.training) is deprecated and will be removed in a future version.
+Instructions for updating:
+This property should not be used in TensorFlow 2.0, as updates are applied automatically.
+WARNING:tensorflow:From /home/monika/anaconda3/lib/python3.8/site-packages/tensorflow/python/training/tracking/tracking.py:111: Layer.updates (from tensorflow.python.keras.engine.base_layer) is deprecated and will be removed in a future version.
+Instructions for updating:
+This property should not be used in TensorFlow 2.0, as updates are applied automatically.
+INFO:tensorflow:Assets written to: ./models/937015a7a1264a9dbac5885b4caa9edf/assets
+DEBUG:root:2021-02-16 20:44:38 Saved model successfully.
+DEBUG:root:2021-02-16 20:44:38 Evaluating models...
+DEBUG:root:2021-02-16 20:44:38 Loading images.
+DEBUG:root:2021-02-16 20:44:39 Loaded images successfully.
+DEBUG:root:2021-02-16 20:44:52 Model evaluated successfully.
+DEBUG:root:2021-02-16 20:44:52 Ending mlflow run.
+DEBUG:root:2021-02-16 20:50:20 Starting mlflow run...
+DEBUG:git.cmd:Popen(['git', 'version'], cwd=/home/monika/Documents/Test, universal_newlines=False, shell=None, istream=None)
+DEBUG:git.cmd:Popen(['git', 'version'], cwd=/home/monika/Documents/Test, universal_newlines=False, shell=None, istream=None)
+DEBUG:root:2021-02-16 20:50:20 Mlflow run started.
+DEBUG:root:2021-02-16 20:50:20 Getting parameters...
+DEBUG:root:2021-02-16 20:50:20 Done getting parameters.
+DEBUG:root:2021-02-16 20:50:20 Started loading data...
+DEBUG:root:2021-02-16 20:50:20 train.parquet loaded
+DEBUG:root:2021-02-16 20:50:20 test.parquet loaded
+DEBUG:root:2021-02-16 20:50:20 Ensuring unique data...
+DEBUG:root:2021-02-16 20:50:20 Done taking unique.
+DEBUG:root:2021-02-16 20:50:20 Data limit is less than data length.
+DEBUG:root:2021-02-16 20:50:20 Loading images.
+DEBUG:root:2021-02-16 20:50:20 Loaded images successfully.
+DEBUG:root:2021-02-16 20:50:26 Creating a model...
+DEBUG:root:2021-02-16 20:50:28 Created model successfully.
+DEBUG:root:2021-02-16 20:50:28 Getting model metrics...
+DEBUG:root:2021-02-16 20:50:28 Model metrics calculated.
+DEBUG:root:2021-02-16 20:50:28 Compiling model...
+DEBUG:root:2021-02-16 20:50:28 Model compiled.
+DEBUG:root:2021-02-16 20:50:28 Fitting model...
+WARNING:tensorflow:From /home/monika/anaconda3/lib/python3.8/site-packages/tensorflow/python/ops/summary_ops_v2.py:1277: stop (from tensorflow.python.eager.profiler) is deprecated and will be removed after 2020-07-01.
+Instructions for updating:
+use `tf.profiler.experimental.stop` instead.
+DEBUG:root:2021-02-16 20:51:12 Fitted model successfully.
+DEBUG:root:2021-02-16 20:51:12 Saving model...
+WARNING:tensorflow:From /home/monika/anaconda3/lib/python3.8/site-packages/tensorflow/python/training/tracking/tracking.py:111: Model.state_updates (from tensorflow.python.keras.engine.training) is deprecated and will be removed in a future version.
+Instructions for updating:
+This property should not be used in TensorFlow 2.0, as updates are applied automatically.
+WARNING:tensorflow:From /home/monika/anaconda3/lib/python3.8/site-packages/tensorflow/python/training/tracking/tracking.py:111: Layer.updates (from tensorflow.python.keras.engine.base_layer) is deprecated and will be removed in a future version.
+Instructions for updating:
+This property should not be used in TensorFlow 2.0, as updates are applied automatically.
+INFO:tensorflow:Assets written to: ./models/64cb4f1298cd4d9ab1a22b4dd0a13769/assets
+DEBUG:root:2021-02-16 20:51:30 Saved model successfully.
+DEBUG:root:2021-02-16 20:51:31 Evaluating models...
+DEBUG:root:2021-02-16 20:51:31 Loading images.
+DEBUG:root:2021-02-16 20:51:31 Loaded images successfully.
+DEBUG:root:2021-02-16 20:51:45 Model evaluated successfully.
+DEBUG:root:2021-02-16 20:51:45 Ending mlflow run.
+DEBUG:root:2021-02-16 20:54:59 Starting mlflow run...
+DEBUG:git.cmd:Popen(['git', 'version'], cwd=/home/monika/Documents/Test, universal_newlines=False, shell=None, istream=None)
+DEBUG:git.cmd:Popen(['git', 'version'], cwd=/home/monika/Documents/Test, universal_newlines=False, shell=None, istream=None)
+DEBUG:root:2021-02-16 20:54:59 Mlflow run started.
+DEBUG:root:2021-02-16 20:54:59 Getting parameters...
+ERROR:root:2021-02-16 20:54:59 Error getting the parameters.
+DEBUG:root:2021-02-16 20:54:59 Started loading data...
+ERROR:root:2021-02-16 20:54:59 Failed to load train.parquet.
+ERROR:root:2021-02-16 20:54:59 Failed to load test.parquet.
+DEBUG:root:2021-02-16 20:54:59 Ensuring unique data...
+ERROR:root:2021-02-16 20:54:59 Failed to ensure unique.
+ERROR:root:2021-02-16 20:54:59 Failed to run.
+DEBUG:root:2021-02-16 20:57:26 Starting mlflow run...
+DEBUG:git.cmd:Popen(['git', 'version'], cwd=/home/monika/Documents/Test, universal_newlines=False, shell=None, istream=None)
+DEBUG:git.cmd:Popen(['git', 'version'], cwd=/home/monika/Documents/Test, universal_newlines=False, shell=None, istream=None)
+DEBUG:root:2021-02-16 20:57:27 Mlflow run started.
+DEBUG:root:2021-02-16 20:57:27 Getting parameters...
+DEBUG:root:2021-02-16 20:57:27 batch_size 8
+DEBUG:root:2021-02-16 20:57:27 train_epochs 3
+DEBUG:root:2021-02-16 20:57:27 test_file ./data/test.parquet
+DEBUG:root:2021-02-16 20:57:27 train_file ./data/train.parquet
+DEBUG:root:2021-02-16 20:57:27 dp_rate 0.3
+DEBUG:root:2021-02-16 20:57:27 data_limit 50
+DEBUG:root:2021-02-16 20:57:27 Done getting parameters.
+DEBUG:root:2021-02-16 20:57:27 Started loading data...
+DEBUG:root:2021-02-16 20:57:27 train.parquet loaded
+DEBUG:root:2021-02-16 20:57:27 test.parquet loaded
+DEBUG:root:2021-02-16 20:57:27 Ensuring unique data...
+DEBUG:root:2021-02-16 20:57:27 Done taking unique.
+DEBUG:root:2021-02-16 20:57:27 Data limit is less than data length.
+DEBUG:root:2021-02-16 20:57:27 Loading images.
+DEBUG:root:2021-02-16 20:57:27 Loaded images successfully.
+DEBUG:root:2021-02-16 20:57:33 Creating a model...
+DEBUG:root:2021-02-16 20:57:35 Created model successfully.
+DEBUG:root:2021-02-16 20:57:35 Getting model metrics...
+DEBUG:root:2021-02-16 20:57:35 Model metrics calculated.
+DEBUG:root:2021-02-16 20:57:35 Compiling model...
+DEBUG:root:2021-02-16 20:57:35 Model compiled.
+DEBUG:root:2021-02-16 20:57:35 Fitting model...
+WARNING:tensorflow:From /home/monika/anaconda3/lib/python3.8/site-packages/tensorflow/python/ops/summary_ops_v2.py:1277: stop (from tensorflow.python.eager.profiler) is deprecated and will be removed after 2020-07-01.
+Instructions for updating:
+use `tf.profiler.experimental.stop` instead.
+DEBUG:root:2021-02-16 20:58:21 Fitted model successfully.
+DEBUG:root:2021-02-16 20:58:21 Saving model...
+WARNING:tensorflow:From /home/monika/anaconda3/lib/python3.8/site-packages/tensorflow/python/training/tracking/tracking.py:111: Model.state_updates (from tensorflow.python.keras.engine.training) is deprecated and will be removed in a future version.
+Instructions for updating:
+This property should not be used in TensorFlow 2.0, as updates are applied automatically.
+WARNING:tensorflow:From /home/monika/anaconda3/lib/python3.8/site-packages/tensorflow/python/training/tracking/tracking.py:111: Layer.updates (from tensorflow.python.keras.engine.base_layer) is deprecated and will be removed in a future version.
+Instructions for updating:
+This property should not be used in TensorFlow 2.0, as updates are applied automatically.
+INFO:tensorflow:Assets written to: ./models/a9ccf6c63b6540c0820fa77047f77f09/assets
+DEBUG:root:2021-02-16 20:58:40 Saved model successfully.
+DEBUG:root:2021-02-16 20:58:40 Evaluating models...
+DEBUG:root:2021-02-16 20:58:40 Loading images.
+DEBUG:root:2021-02-16 20:58:40 Loaded images successfully.
+DEBUG:root:2021-02-16 20:58:53 Model evaluated successfully.
+DEBUG:root:2021-02-16 20:58:53 Ending mlflow run.
+DEBUG:root:2021-02-16 21:11:02 Starting mlflow run...
+DEBUG:git.cmd:Popen(['git', 'version'], cwd=/home/monika/Documents/Test, universal_newlines=False, shell=None, istream=None)
+DEBUG:git.cmd:Popen(['git', 'version'], cwd=/home/monika/Documents/Test, universal_newlines=False, shell=None, istream=None)
+DEBUG:root:2021-02-16 21:11:02 Mlflow run started.
+DEBUG:root:2021-02-16 21:11:02 Getting parameters...
+DEBUG:root:2021-02-16 21:11:02 batch_size 8
+DEBUG:root:2021-02-16 21:11:02 train_epochs 3
+DEBUG:root:2021-02-16 21:11:02 test_file ./data/test.parquet
+DEBUG:root:2021-02-16 21:11:02 train_file ./data/train.parquet
+DEBUG:root:2021-02-16 21:11:02 dp_rate 0.3
+DEBUG:root:2021-02-16 21:11:02 data_limit 50
+DEBUG:root:2021-02-16 21:11:02 Done getting parameters.
+DEBUG:root:2021-02-16 21:11:02 Started loading data...
+DEBUG:root:2021-02-16 21:11:02 train.parquet loaded
+DEBUG:root:2021-02-16 21:11:02 test.parquet loaded
+DEBUG:root:2021-02-16 21:11:02 Ensuring unique data...
+DEBUG:root:2021-02-16 21:11:02 Done taking unique.
+DEBUG:root:2021-02-16 21:11:02 Data limit is less than data length.
+DEBUG:root:2021-02-16 21:11:02 Loading images.
+DEBUG:root:2021-02-16 21:11:02 Loaded images successfully.
+DEBUG:root:2021-02-16 21:11:08 Creating a model...
+DEBUG:root:2021-02-16 21:11:10 Created model successfully.
+DEBUG:root:2021-02-16 21:11:10 Getting model metrics...
+DEBUG:root:2021-02-16 21:11:10 Model metrics calculated.
+DEBUG:root:2021-02-16 21:11:10 Compiling model...
+DEBUG:root:2021-02-16 21:11:10 Model compiled.
+DEBUG:root:2021-02-16 21:11:10 Fitting model...
+WARNING:tensorflow:From /home/monika/anaconda3/lib/python3.8/site-packages/tensorflow/python/ops/summary_ops_v2.py:1277: stop (from tensorflow.python.eager.profiler) is deprecated and will be removed after 2020-07-01.
+Instructions for updating:
+use `tf.profiler.experimental.stop` instead.
+DEBUG:root:2021-02-16 21:11:54 Fitted model successfully.
+DEBUG:root:2021-02-16 21:11:54 Saving model...
+WARNING:tensorflow:From /home/monika/anaconda3/lib/python3.8/site-packages/tensorflow/python/training/tracking/tracking.py:111: Model.state_updates (from tensorflow.python.keras.engine.training) is deprecated and will be removed in a future version.
+Instructions for updating:
+This property should not be used in TensorFlow 2.0, as updates are applied automatically.
+WARNING:tensorflow:From /home/monika/anaconda3/lib/python3.8/site-packages/tensorflow/python/training/tracking/tracking.py:111: Layer.updates (from tensorflow.python.keras.engine.base_layer) is deprecated and will be removed in a future version.
+Instructions for updating:
+This property should not be used in TensorFlow 2.0, as updates are applied automatically.
+INFO:tensorflow:Assets written to: ./models/85dc40872c51413c81f41c5bafea7466/assets
+DEBUG:root:2021-02-16 21:12:13 Saved model successfully.
+DEBUG:root:2021-02-16 21:12:13 Evaluating models...
+DEBUG:root:2021-02-16 21:12:13 Loading images.
+DEBUG:root:2021-02-16 21:12:13 Loaded images successfully.
+DEBUG:root:2021-02-16 21:12:26 Model evaluated successfully.
+DEBUG:root:2021-02-16 21:12:26 Ending mlflow run.
+DEBUG:root:2021-02-16 21:17:29 Starting mlflow run...
+DEBUG:git.cmd:Popen(['git', 'version'], cwd=/home/monika/Documents/Test, universal_newlines=False, shell=None, istream=None)
+DEBUG:git.cmd:Popen(['git', 'version'], cwd=/home/monika/Documents/Test, universal_newlines=False, shell=None, istream=None)
+DEBUG:root:2021-02-16 21:17:30 Mlflow run started.
+DEBUG:root:2021-02-16 21:17:30 Getting parameters...
+DEBUG:root:2021-02-16 21:17:30 batch_size 8
+DEBUG:root:2021-02-16 21:17:30 train_epochs 3
+DEBUG:root:2021-02-16 21:17:30 test_file ./data/test.parquet
+DEBUG:root:2021-02-16 21:17:30 train_file ./data/train.parquet
+DEBUG:root:2021-02-16 21:17:30 dp_rate 0.3
+DEBUG:root:2021-02-16 21:17:30 data_limit 50
+DEBUG:root:2021-02-16 21:17:30 Done getting parameters.
+DEBUG:root:2021-02-16 21:17:30 Started loading data...
+DEBUG:root:2021-02-16 21:17:30 train.parquet loaded
+DEBUG:root:2021-02-16 21:17:30 test.parquet loaded
+DEBUG:root:2021-02-16 21:17:30 Ensuring unique data...
+DEBUG:root:2021-02-16 21:17:30 Done taking unique.
+DEBUG:root:2021-02-16 21:17:30 Data limit is less than data length.
+DEBUG:root:2021-02-16 21:17:30 Loading images.
+DEBUG:root:2021-02-16 21:17:30 Loaded images successfully.
+DEBUG:root:2021-02-16 21:17:36 Creating a model...
+DEBUG:root:2021-02-16 21:17:38 Created model successfully.
+DEBUG:root:2021-02-16 21:17:38 Getting model metrics...
+DEBUG:root:2021-02-16 21:17:38 Model metrics calculated.
+DEBUG:root:2021-02-16 21:17:38 Compiling model...
+DEBUG:root:2021-02-16 21:17:38 Model compiled.
+DEBUG:root:2021-02-16 21:17:38 Fitting model...
+WARNING:tensorflow:From /home/monika/anaconda3/lib/python3.8/site-packages/tensorflow/python/ops/summary_ops_v2.py:1277: stop (from tensorflow.python.eager.profiler) is deprecated and will be removed after 2020-07-01.
+Instructions for updating:
+use `tf.profiler.experimental.stop` instead.
+ERROR:root:2021-02-16 21:18:20 Failed to fit a model.
+DEBUG:root:2021-02-16 21:18:20 Saving model...
+ERROR:root:2021-02-16 21:18:20 Failed to save the mmodel.
+DEBUG:root:2021-02-16 21:18:20 Evaluating models...
+DEBUG:root:2021-02-16 21:18:20 Loading images.
+DEBUG:root:2021-02-16 21:18:20 Loaded images successfully.
+ERROR:root:2021-02-16 21:18:20 Failed to evaluate a model.
+DEBUG:root:2021-02-16 21:18:20 Ending mlflow run.
+DEBUG:root:2021-02-16 21:22:17 Starting mlflow run...
+DEBUG:git.cmd:Popen(['git', 'version'], cwd=/home/monika/Documents/Test, universal_newlines=False, shell=None, istream=None)
+DEBUG:git.cmd:Popen(['git', 'version'], cwd=/home/monika/Documents/Test, universal_newlines=False, shell=None, istream=None)
+DEBUG:root:2021-02-16 21:22:17 Mlflow run started.
+DEBUG:root:2021-02-16 21:22:17 Getting parameters...
+DEBUG:root:2021-02-16 21:22:17 batch_size 8
+DEBUG:root:2021-02-16 21:22:17 train_epochs 3
+DEBUG:root:2021-02-16 21:22:17 test_file ./data/test.parquet
+DEBUG:root:2021-02-16 21:22:17 train_file ./data/train.parquet
+DEBUG:root:2021-02-16 21:22:17 dp_rate 0.3
+DEBUG:root:2021-02-16 21:22:17 data_limit 50
+DEBUG:root:2021-02-16 21:22:17 Done getting parameters.
+DEBUG:root:2021-02-16 21:22:17 Started loading data...
+DEBUG:root:2021-02-16 21:22:17 train.parquet loaded
+DEBUG:root:2021-02-16 21:22:17 test.parquet loaded
+DEBUG:root:2021-02-16 21:22:17 Ensuring unique data...
+DEBUG:root:2021-02-16 21:22:17 Done taking unique.
+DEBUG:root:2021-02-16 21:22:17 Data limit is less than data length.
+DEBUG:root:2021-02-16 21:22:17 Loading images.
+DEBUG:root:2021-02-16 21:22:17 Loaded images successfully.
+DEBUG:root:2021-02-16 21:22:23 Creating a model...
+DEBUG:root:2021-02-16 21:22:25 Created model successfully.
+DEBUG:root:2021-02-16 21:22:25 Getting model metrics...
+DEBUG:root:2021-02-16 21:22:25 Model metrics calculated.
+DEBUG:root:2021-02-16 21:22:25 Compiling model...
+DEBUG:root:2021-02-16 21:22:25 Model compiled.
+DEBUG:root:2021-02-16 21:22:25 Fitting model...
+ERROR:root:2021-02-16 21:22:36 Failed to fit a model.
+DEBUG:root:2021-02-16 21:22:36 Saving model...
+ERROR:root:2021-02-16 21:22:36 Failed to save the mmodel.
+DEBUG:root:2021-02-16 21:22:36 Evaluating models...
+DEBUG:root:2021-02-16 21:22:36 Loading images.
+DEBUG:root:2021-02-16 21:22:37 Loaded images successfully.
+ERROR:root:2021-02-16 21:22:37 Failed to evaluate a model.
+ERROR:root:2021-02-16 21:22:37 Error calculating the meadians and means.
+DEBUG:root:2021-02-16 21:22:37 Ending mlflow run.
+DEBUG:root:2021-02-16 21:23:19 Starting mlflow run...
+DEBUG:git.cmd:Popen(['git', 'version'], cwd=/home/monika/Documents/Test, universal_newlines=False, shell=None, istream=None)
+DEBUG:git.cmd:Popen(['git', 'version'], cwd=/home/monika/Documents/Test, universal_newlines=False, shell=None, istream=None)
+DEBUG:root:2021-02-16 21:23:19 Mlflow run started.
+DEBUG:root:2021-02-16 21:23:19 Getting parameters...
+DEBUG:root:2021-02-16 21:23:19 batch_size 8
+DEBUG:root:2021-02-16 21:23:19 train_epochs 1
+DEBUG:root:2021-02-16 21:23:19 test_file ./data/test.parquet
+DEBUG:root:2021-02-16 21:23:19 train_file ./data/train.parquet
+DEBUG:root:2021-02-16 21:23:19 dp_rate 0.3
+DEBUG:root:2021-02-16 21:23:19 data_limit 50
+DEBUG:root:2021-02-16 21:23:19 Done getting parameters.
+DEBUG:root:2021-02-16 21:23:19 Started loading data...
+DEBUG:root:2021-02-16 21:23:19 train.parquet loaded
+DEBUG:root:2021-02-16 21:23:19 test.parquet loaded
+DEBUG:root:2021-02-16 21:23:19 Ensuring unique data...
+DEBUG:root:2021-02-16 21:23:19 Done taking unique.
+DEBUG:root:2021-02-16 21:23:19 Data limit is less than data length.
+DEBUG:root:2021-02-16 21:23:19 Loading images.
+DEBUG:root:2021-02-16 21:23:20 Loaded images successfully.
+DEBUG:root:2021-02-16 21:23:25 Creating a model...
+DEBUG:root:2021-02-16 21:23:27 Created model successfully.
+DEBUG:root:2021-02-16 21:23:27 Getting model metrics...
+DEBUG:root:2021-02-16 21:23:27 Model metrics calculated.
+DEBUG:root:2021-02-16 21:23:27 Compiling model...
+DEBUG:root:2021-02-16 21:23:27 Model compiled.
+DEBUG:root:2021-02-16 21:23:27 Fitting model...
+WARNING:tensorflow:From /home/monika/anaconda3/lib/python3.8/site-packages/tensorflow/python/ops/summary_ops_v2.py:1277: stop (from tensorflow.python.eager.profiler) is deprecated and will be removed after 2020-07-01.
+Instructions for updating:
+use `tf.profiler.experimental.stop` instead.
+DEBUG:root:2021-02-16 21:23:47 Fitted model successfully.
+DEBUG:root:2021-02-16 21:23:47 Saving model...
+WARNING:tensorflow:From /home/monika/anaconda3/lib/python3.8/site-packages/tensorflow/python/training/tracking/tracking.py:111: Model.state_updates (from tensorflow.python.keras.engine.training) is deprecated and will be removed in a future version.
+Instructions for updating:
+This property should not be used in TensorFlow 2.0, as updates are applied automatically.
+WARNING:tensorflow:From /home/monika/anaconda3/lib/python3.8/site-packages/tensorflow/python/training/tracking/tracking.py:111: Layer.updates (from tensorflow.python.keras.engine.base_layer) is deprecated and will be removed in a future version.
+Instructions for updating:
+This property should not be used in TensorFlow 2.0, as updates are applied automatically.
+INFO:tensorflow:Assets written to: ./models/cce3aa57c3f44099b9943f9abc739896/assets
+DEBUG:root:2021-02-16 21:24:06 Saved model successfully.
+DEBUG:root:2021-02-16 21:24:06 Evaluating models...
+DEBUG:root:2021-02-16 21:24:06 Loading images.
+DEBUG:root:2021-02-16 21:24:06 Loaded images successfully.
+DEBUG:root:2021-02-16 21:24:19 Model evaluated successfully.
+DEBUG:root:2021-02-16 21:24:19 Ending mlflow run.
+DEBUG:root:2021-02-16 21:25:56 Starting mlflow run...
+DEBUG:git.cmd:Popen(['git', 'version'], cwd=/home/monika/Documents/Test, universal_newlines=False, shell=None, istream=None)
+DEBUG:git.cmd:Popen(['git', 'version'], cwd=/home/monika/Documents/Test, universal_newlines=False, shell=None, istream=None)
+DEBUG:root:2021-02-16 21:25:56 Mlflow run started.
+DEBUG:root:2021-02-16 21:25:56 Getting parameters...
+DEBUG:root:2021-02-16 21:25:56 batch_size 8
+DEBUG:root:2021-02-16 21:25:56 train_epochs 1
+DEBUG:root:2021-02-16 21:25:56 test_file ./data/test.parquet
+DEBUG:root:2021-02-16 21:25:56 train_file ./data/train.parquet
+DEBUG:root:2021-02-16 21:25:56 dp_rate 0.3
+DEBUG:root:2021-02-16 21:25:56 data_limit 50
+DEBUG:root:2021-02-16 21:25:56 Done getting parameters.
+DEBUG:root:2021-02-16 21:25:56 Started loading data...
+DEBUG:root:2021-02-16 21:25:56 train.parquet loaded
+DEBUG:root:2021-02-16 21:25:56 test.parquet loaded
+DEBUG:root:2021-02-16 21:25:56 Ensuring unique data...
+DEBUG:root:2021-02-16 21:25:56 Done taking unique.
+DEBUG:root:2021-02-16 21:25:56 Data limit is less than data length.
+DEBUG:root:2021-02-16 21:25:56 Loading images.
+DEBUG:root:2021-02-16 21:25:57 Loaded images successfully.
+DEBUG:root:2021-02-16 21:26:02 Creating a model...
+DEBUG:root:2021-02-16 21:26:04 Created model successfully.
+DEBUG:root:2021-02-16 21:26:04 Getting model metrics...
+DEBUG:root:2021-02-16 21:26:04 Model metrics calculated.
+DEBUG:root:2021-02-16 21:26:04 Compiling model...
+DEBUG:root:2021-02-16 21:26:04 Model compiled.
+DEBUG:root:2021-02-16 21:26:04 Fitting model...
+WARNING:tensorflow:From /home/monika/anaconda3/lib/python3.8/site-packages/tensorflow/python/ops/summary_ops_v2.py:1277: stop (from tensorflow.python.eager.profiler) is deprecated and will be removed after 2020-07-01.
+Instructions for updating:
+use `tf.profiler.experimental.stop` instead.
+DEBUG:root:2021-02-16 21:26:23 Fitted model successfully.
+DEBUG:root:2021-02-16 21:26:23 Saving model...
+WARNING:tensorflow:From /home/monika/anaconda3/lib/python3.8/site-packages/tensorflow/python/training/tracking/tracking.py:111: Model.state_updates (from tensorflow.python.keras.engine.training) is deprecated and will be removed in a future version.
+Instructions for updating:
+This property should not be used in TensorFlow 2.0, as updates are applied automatically.
+WARNING:tensorflow:From /home/monika/anaconda3/lib/python3.8/site-packages/tensorflow/python/training/tracking/tracking.py:111: Layer.updates (from tensorflow.python.keras.engine.base_layer) is deprecated and will be removed in a future version.
+Instructions for updating:
+This property should not be used in TensorFlow 2.0, as updates are applied automatically.
+INFO:tensorflow:Assets written to: ./models/6d9918813aa543bca2c051c3e68f56d1/assets
+DEBUG:root:2021-02-16 21:26:42 Saved model successfully.
+DEBUG:root:2021-02-16 21:26:42 Evaluating models...
+DEBUG:root:2021-02-16 21:26:42 Loading images.
+DEBUG:root:2021-02-16 21:26:43 Loaded images successfully.
+DEBUG:root:2021-02-16 21:26:56 Model evaluated successfully.
+DEBUG:root:2021-02-16 21:26:56 Ending mlflow run.
+DEBUG:root:2021-02-16 21:29:24 Starting mlflow run...
+DEBUG:git.cmd:Popen(['git', 'version'], cwd=/home/monika/Documents/Test, universal_newlines=False, shell=None, istream=None)
+DEBUG:git.cmd:Popen(['git', 'version'], cwd=/home/monika/Documents/Test, universal_newlines=False, shell=None, istream=None)
+DEBUG:root:2021-02-16 21:29:24 Mlflow run started.
+DEBUG:root:2021-02-16 21:29:25 Getting parameters...
+DEBUG:root:2021-02-16 21:29:25 batch_size 8
+DEBUG:root:2021-02-16 21:29:25 train_epochs 1
+DEBUG:root:2021-02-16 21:29:25 test_file ./data/test.parquet
+DEBUG:root:2021-02-16 21:29:25 train_file ./data/train.parquet
+DEBUG:root:2021-02-16 21:29:25 dp_rate 0.3
+DEBUG:root:2021-02-16 21:29:25 data_limit 50
+DEBUG:root:2021-02-16 21:29:25 Done getting parameters.
+DEBUG:root:2021-02-16 21:29:25 Started loading data...
+DEBUG:root:2021-02-16 21:29:25 train.parquet loaded
+DEBUG:root:2021-02-16 21:29:25 test.parquet loaded
+DEBUG:root:2021-02-16 21:29:25 Ensuring unique data...
+DEBUG:root:2021-02-16 21:29:25 Done taking unique.
+DEBUG:root:2021-02-16 21:29:25 Data limit is less than data length.
+DEBUG:root:2021-02-16 21:29:25 Loading images.
+DEBUG:root:2021-02-16 21:29:25 Loaded images successfully.
+DEBUG:root:2021-02-16 21:29:31 Creating a model...
+DEBUG:root:2021-02-16 21:29:32 Created model successfully.
+DEBUG:root:2021-02-16 21:29:32 Getting model metrics...
+DEBUG:root:2021-02-16 21:29:32 Model metrics calculated.
+DEBUG:root:2021-02-16 21:29:32 Compiling model...
+DEBUG:root:2021-02-16 21:29:32 Model compiled.
+DEBUG:root:2021-02-16 21:29:32 Fitting model...
+WARNING:tensorflow:From /home/monika/anaconda3/lib/python3.8/site-packages/tensorflow/python/ops/summary_ops_v2.py:1277: stop (from tensorflow.python.eager.profiler) is deprecated and will be removed after 2020-07-01.
+Instructions for updating:
+use `tf.profiler.experimental.stop` instead.
+DEBUG:root:2021-02-16 21:29:52 Fitted model successfully.
+DEBUG:root:2021-02-16 21:29:52 Saving model...
+WARNING:tensorflow:From /home/monika/anaconda3/lib/python3.8/site-packages/tensorflow/python/training/tracking/tracking.py:111: Model.state_updates (from tensorflow.python.keras.engine.training) is deprecated and will be removed in a future version.
+Instructions for updating:
+This property should not be used in TensorFlow 2.0, as updates are applied automatically.
+WARNING:tensorflow:From /home/monika/anaconda3/lib/python3.8/site-packages/tensorflow/python/training/tracking/tracking.py:111: Layer.updates (from tensorflow.python.keras.engine.base_layer) is deprecated and will be removed in a future version.
+Instructions for updating:
+This property should not be used in TensorFlow 2.0, as updates are applied automatically.
+INFO:tensorflow:Assets written to: ./models/a94134c541614077af7d7adbbfc41d35/assets
+DEBUG:root:2021-02-16 21:30:11 Saved model successfully.
+DEBUG:root:2021-02-16 21:30:11 Evaluating models...
+DEBUG:root:2021-02-16 21:30:11 Loading images.
+DEBUG:root:2021-02-16 21:30:11 Loaded images successfully.
+DEBUG:root:2021-02-16 21:30:24 Model evaluated successfully.
+DEBUG:root:2021-02-16 21:30:24 Ending mlflow run.
+DEBUG:root:2021-02-16 21:31:32 Starting mlflow run...
+DEBUG:git.cmd:Popen(['git', 'version'], cwd=/home/monika/Documents/Test, universal_newlines=False, shell=None, istream=None)
+DEBUG:git.cmd:Popen(['git', 'version'], cwd=/home/monika/Documents/Test, universal_newlines=False, shell=None, istream=None)
+DEBUG:root:2021-02-16 21:31:33 Mlflow run started.
+DEBUG:root:2021-02-16 21:31:33 Getting parameters...
+DEBUG:root:2021-02-16 21:31:33 batch_size 8
+DEBUG:root:2021-02-16 21:31:33 train_epochs 1
+DEBUG:root:2021-02-16 21:31:33 test_file ./data/test.parquet
+DEBUG:root:2021-02-16 21:31:33 train_file ./data/train.parquet
+DEBUG:root:2021-02-16 21:31:33 dp_rate 0.3
+DEBUG:root:2021-02-16 21:31:33 data_limit 50
+DEBUG:root:2021-02-16 21:31:33 Done getting parameters.
+DEBUG:root:2021-02-16 21:31:33 Started loading data...
+DEBUG:root:2021-02-16 21:31:33 train.parquet loaded
+DEBUG:root:2021-02-16 21:31:33 test.parquet loaded
+DEBUG:root:2021-02-16 21:31:33 Ensuring unique data...
+DEBUG:root:2021-02-16 21:31:33 Done taking unique.
+DEBUG:root:2021-02-16 21:31:33 Data limit is less than data length.
+DEBUG:root:2021-02-16 21:31:33 Loading images.
+DEBUG:root:2021-02-16 21:31:33 Loaded images successfully.
+DEBUG:root:2021-02-16 21:31:39 Creating a model...
+DEBUG:root:2021-02-16 21:31:40 Created model successfully.
+DEBUG:root:2021-02-16 21:31:40 Getting model metrics...
+DEBUG:root:2021-02-16 21:31:40 Model metrics calculated.
+DEBUG:root:2021-02-16 21:31:40 Compiling model...
+DEBUG:root:2021-02-16 21:31:40 Model compiled.
+DEBUG:root:2021-02-16 21:31:40 Fitting model...
+WARNING:tensorflow:From /home/monika/anaconda3/lib/python3.8/site-packages/tensorflow/python/ops/summary_ops_v2.py:1277: stop (from tensorflow.python.eager.profiler) is deprecated and will be removed after 2020-07-01.
+Instructions for updating:
+use `tf.profiler.experimental.stop` instead.
+DEBUG:root:2021-02-16 21:32:01 Fitted model successfully.
+DEBUG:root:2021-02-16 21:32:01 Saving model...
+WARNING:tensorflow:From /home/monika/anaconda3/lib/python3.8/site-packages/tensorflow/python/training/tracking/tracking.py:111: Model.state_updates (from tensorflow.python.keras.engine.training) is deprecated and will be removed in a future version.
+Instructions for updating:
+This property should not be used in TensorFlow 2.0, as updates are applied automatically.
+WARNING:tensorflow:From /home/monika/anaconda3/lib/python3.8/site-packages/tensorflow/python/training/tracking/tracking.py:111: Layer.updates (from tensorflow.python.keras.engine.base_layer) is deprecated and will be removed in a future version.
+Instructions for updating:
+This property should not be used in TensorFlow 2.0, as updates are applied automatically.
+INFO:tensorflow:Assets written to: ./models/5f00bcefae18484695445cd9ac096f1c/assets
+DEBUG:root:2021-02-16 21:32:20 Saved model successfully.
+DEBUG:root:2021-02-16 21:32:20 Evaluating models...
+DEBUG:root:2021-02-16 21:32:20 Loading images.
+DEBUG:root:2021-02-16 21:32:20 Loaded images successfully.
+DEBUG:root:2021-02-16 21:32:34 Model evaluated successfully.
+DEBUG:root:2021-02-16 21:32:34 Ending mlflow run.
+DEBUG:root:2021-02-16 21:43:46 Starting mlflow run...
+DEBUG:git.cmd:Popen(['git', 'version'], cwd=/home/monika/Documents/Test, universal_newlines=False, shell=None, istream=None)
+DEBUG:git.cmd:Popen(['git', 'version'], cwd=/home/monika/Documents/Test, universal_newlines=False, shell=None, istream=None)
+DEBUG:root:2021-02-16 21:43:46 Mlflow run started.
+DEBUG:root:2021-02-16 21:43:46 Getting parameters...
+DEBUG:root:2021-02-16 21:43:46 batch_size 8
+DEBUG:root:2021-02-16 21:43:46 train_epochs 1
+DEBUG:root:2021-02-16 21:43:46 test_file ./data/test.parquet
+DEBUG:root:2021-02-16 21:43:46 train_file ./data/train.parquet
+DEBUG:root:2021-02-16 21:43:46 dp_rate 0.3
+DEBUG:root:2021-02-16 21:43:46 data_limit 50
+DEBUG:root:2021-02-16 21:43:46 Done getting parameters.
+DEBUG:root:2021-02-16 21:43:46 Started loading data...
+DEBUG:root:2021-02-16 21:43:46 train.parquet loaded
+DEBUG:root:2021-02-16 21:43:46 test.parquet loaded
+DEBUG:root:2021-02-16 21:43:46 Ensuring unique data...
+DEBUG:root:2021-02-16 21:43:46 Done taking unique.
+DEBUG:root:2021-02-16 21:43:46 Data limit is less than data length.
+DEBUG:root:2021-02-16 21:43:46 Loading images.
+DEBUG:root:2021-02-16 21:43:47 Loaded images successfully.
+DEBUG:root:2021-02-16 21:43:53 Creating a model...
+DEBUG:root:2021-02-16 21:43:54 Created model successfully.
+DEBUG:root:2021-02-16 21:43:54 Getting model metrics...
+DEBUG:root:2021-02-16 21:43:54 Model metrics calculated.
+DEBUG:root:2021-02-16 21:43:54 Compiling model...
+DEBUG:root:2021-02-16 21:43:54 Model compiled.
+DEBUG:root:2021-02-16 21:43:54 Fitting model...
+ERROR:root:2021-02-16 21:43:56 Failed to fit a model.
+DEBUG:root:2021-02-16 21:43:56 Saving model...
+ERROR:root:2021-02-16 21:43:56 Failed to save the mmodel.
+DEBUG:root:2021-02-16 21:43:56 Evaluating models...
+DEBUG:root:2021-02-16 21:43:56 Loading images.
+DEBUG:root:2021-02-16 21:43:56 Loaded images successfully.
+ERROR:root:2021-02-16 21:43:56 Failed to evaluate a model.
+ERROR:root:2021-02-16 21:43:56 Error calculating the meadians and means.
+DEBUG:root:2021-02-16 21:43:56 Ending mlflow run.
+DEBUG:root:2021-02-16 21:44:16 Starting mlflow run...
+DEBUG:git.cmd:Popen(['git', 'version'], cwd=/home/monika/Documents/Test, universal_newlines=False, shell=None, istream=None)
+DEBUG:git.cmd:Popen(['git', 'version'], cwd=/home/monika/Documents/Test, universal_newlines=False, shell=None, istream=None)
+DEBUG:root:2021-02-16 21:44:16 Mlflow run started.
+DEBUG:root:2021-02-16 21:44:16 Getting parameters...
+DEBUG:root:2021-02-16 21:44:16 batch_size 8
+DEBUG:root:2021-02-16 21:44:16 train_epochs 1
+DEBUG:root:2021-02-16 21:44:16 test_file ./data/test.parquet
+DEBUG:root:2021-02-16 21:44:16 train_file ./data/train.parquet
+DEBUG:root:2021-02-16 21:44:16 dp_rate 0.3
+DEBUG:root:2021-02-16 21:44:16 data_limit 50
+DEBUG:root:2021-02-16 21:44:16 Done getting parameters.
+DEBUG:root:2021-02-16 21:44:16 Started loading data...
+DEBUG:root:2021-02-16 21:44:16 train.parquet loaded
+DEBUG:root:2021-02-16 21:44:16 test.parquet loaded
+DEBUG:root:2021-02-16 21:44:16 Ensuring unique data...
+DEBUG:root:2021-02-16 21:44:16 Done taking unique.
+DEBUG:root:2021-02-16 21:44:16 Data limit is less than data length.
+DEBUG:root:2021-02-16 21:44:16 Loading images.
+DEBUG:root:2021-02-16 21:44:16 Loaded images successfully.
+DEBUG:root:2021-02-16 21:44:22 Creating a model...
+DEBUG:root:2021-02-16 21:44:24 Created model successfully.
+DEBUG:root:2021-02-16 21:44:24 Getting model metrics...
+DEBUG:root:2021-02-16 21:44:24 Model metrics calculated.
+DEBUG:root:2021-02-16 21:44:24 Compiling model...
+DEBUG:root:2021-02-16 21:44:24 Model compiled.
+DEBUG:root:2021-02-16 21:44:24 Fitting model...
+WARNING:tensorflow:From /home/monika/anaconda3/lib/python3.8/site-packages/tensorflow/python/ops/summary_ops_v2.py:1277: stop (from tensorflow.python.eager.profiler) is deprecated and will be removed after 2020-07-01.
+Instructions for updating:
+use `tf.profiler.experimental.stop` instead.
+DEBUG:root:2021-02-16 21:44:44 Fitted model successfully.
+DEBUG:root:2021-02-16 21:44:44 Saving model...
+WARNING:tensorflow:From /home/monika/anaconda3/lib/python3.8/site-packages/tensorflow/python/training/tracking/tracking.py:111: Model.state_updates (from tensorflow.python.keras.engine.training) is deprecated and will be removed in a future version.
+Instructions for updating:
+This property should not be used in TensorFlow 2.0, as updates are applied automatically.
+WARNING:tensorflow:From /home/monika/anaconda3/lib/python3.8/site-packages/tensorflow/python/training/tracking/tracking.py:111: Layer.updates (from tensorflow.python.keras.engine.base_layer) is deprecated and will be removed in a future version.
+Instructions for updating:
+This property should not be used in TensorFlow 2.0, as updates are applied automatically.
+INFO:tensorflow:Assets written to: ./models/836654cb4bb54f2186bbffedf31760ed/assets
+DEBUG:root:2021-02-16 21:45:03 Saved model successfully.
+DEBUG:root:2021-02-16 21:45:03 Evaluating models...
+DEBUG:root:2021-02-16 21:45:03 Loading images.
+DEBUG:root:2021-02-16 21:45:03 Loaded images successfully.
+DEBUG:root:2021-02-16 21:45:16 Model evaluated successfully.
+ERROR:root:2021-02-16 21:45:16 Error calculating the meadians and means.
+DEBUG:root:2021-02-16 21:45:16 Ending mlflow run.
+DEBUG:root:2021-02-16 21:58:00 Starting mlflow run...
+DEBUG:git.cmd:Popen(['git', 'version'], cwd=/home/monika/Documents/Test, universal_newlines=False, shell=None, istream=None)
+DEBUG:git.cmd:Popen(['git', 'version'], cwd=/home/monika/Documents/Test, universal_newlines=False, shell=None, istream=None)
+DEBUG:root:2021-02-16 21:58:01 Mlflow run started.
+DEBUG:root:2021-02-16 21:58:01 Getting parameters...
+DEBUG:root:2021-02-16 21:58:01 batch_size 8
+DEBUG:root:2021-02-16 21:58:01 train_epochs 1
+DEBUG:root:2021-02-16 21:58:01 test_file ./data/test.parquet
+DEBUG:root:2021-02-16 21:58:01 train_file ./data/train.parquet
+DEBUG:root:2021-02-16 21:58:01 dp_rate 0.3
+DEBUG:root:2021-02-16 21:58:01 data_limit 50
+DEBUG:root:2021-02-16 21:58:01 Done getting parameters.
+DEBUG:root:2021-02-16 21:58:01 Started loading data...
+DEBUG:root:2021-02-16 21:58:01 train.parquet loaded
+DEBUG:root:2021-02-16 21:58:01 test.parquet loaded
+DEBUG:root:2021-02-16 21:58:01 Ensuring unique data...
+DEBUG:root:2021-02-16 21:58:01 Done taking unique.
+DEBUG:root:2021-02-16 21:58:01 Data limit is less than data length.
+DEBUG:root:2021-02-16 21:58:01 Loading images.
+DEBUG:root:2021-02-16 21:58:01 Loaded images successfully.
+DEBUG:root:2021-02-16 21:58:08 Creating a model...
+DEBUG:root:2021-02-16 21:58:10 Created model successfully.
+DEBUG:root:2021-02-16 21:58:10 Getting model metrics...
+DEBUG:root:2021-02-16 21:58:10 Model metrics calculated.
+DEBUG:root:2021-02-16 21:58:10 Compiling model...
+DEBUG:root:2021-02-16 21:58:10 Model compiled.
+DEBUG:root:2021-02-16 21:58:10 Fitting model...
+WARNING:tensorflow:From /home/monika/anaconda3/lib/python3.8/site-packages/tensorflow/python/ops/summary_ops_v2.py:1277: stop (from tensorflow.python.eager.profiler) is deprecated and will be removed after 2020-07-01.
+Instructions for updating:
+use `tf.profiler.experimental.stop` instead.
+DEBUG:root:2021-02-16 21:58:30 Fitted model successfully.
+DEBUG:root:2021-02-16 21:58:30 Saving model...
+WARNING:tensorflow:From /home/monika/anaconda3/lib/python3.8/site-packages/tensorflow/python/training/tracking/tracking.py:111: Model.state_updates (from tensorflow.python.keras.engine.training) is deprecated and will be removed in a future version.
+Instructions for updating:
+This property should not be used in TensorFlow 2.0, as updates are applied automatically.
+WARNING:tensorflow:From /home/monika/anaconda3/lib/python3.8/site-packages/tensorflow/python/training/tracking/tracking.py:111: Layer.updates (from tensorflow.python.keras.engine.base_layer) is deprecated and will be removed in a future version.
+Instructions for updating:
+This property should not be used in TensorFlow 2.0, as updates are applied automatically.
+INFO:tensorflow:Assets written to: ./models/92244e927dbb42fc98a53136cadcd15d/assets
+DEBUG:root:2021-02-16 21:58:49 Saved model successfully.
+DEBUG:root:2021-02-16 21:58:49 Evaluating models...
+DEBUG:root:2021-02-16 21:58:49 Loading images.
+DEBUG:root:2021-02-16 21:58:49 Loaded images successfully.
+DEBUG:root:2021-02-16 21:59:03 Model evaluated successfully.
+ERROR:root:2021-02-16 21:59:03 Will calculate meadians and means.
+ERROR:root:2021-02-16 21:59:03 Error calculating the meadians and means.
+DEBUG:root:2021-02-16 21:59:03 Ending mlflow run.
+DEBUG:root:2021-02-16 22:02:49 Starting mlflow run...
+DEBUG:git.cmd:Popen(['git', 'version'], cwd=/home/monika/Documents/Test, universal_newlines=False, shell=None, istream=None)
+DEBUG:git.cmd:Popen(['git', 'version'], cwd=/home/monika/Documents/Test, universal_newlines=False, shell=None, istream=None)
+DEBUG:root:2021-02-16 22:02:49 Mlflow run started.
+DEBUG:root:2021-02-16 22:02:49 Getting parameters...
+DEBUG:root:2021-02-16 22:02:49 batch_size 8
+DEBUG:root:2021-02-16 22:02:49 train_epochs 1
+DEBUG:root:2021-02-16 22:02:49 test_file ./data/test.parquet
+DEBUG:root:2021-02-16 22:02:49 train_file ./data/train.parquet
+DEBUG:root:2021-02-16 22:02:49 dp_rate 0.3
+DEBUG:root:2021-02-16 22:02:49 data_limit 50
+DEBUG:root:2021-02-16 22:02:49 Done getting parameters.
+DEBUG:root:2021-02-16 22:02:49 Started loading data...
+DEBUG:root:2021-02-16 22:02:49 train.parquet loaded
+DEBUG:root:2021-02-16 22:02:49 test.parquet loaded
+DEBUG:root:2021-02-16 22:02:49 Ensuring unique data...
+DEBUG:root:2021-02-16 22:02:49 Done taking unique.
+DEBUG:root:2021-02-16 22:02:49 Data limit is less than data length.
+DEBUG:root:2021-02-16 22:02:49 Loading images.
+DEBUG:root:2021-02-16 22:02:49 Loaded images successfully.
+DEBUG:root:2021-02-16 22:02:55 Creating a model...
+DEBUG:root:2021-02-16 22:02:57 Created model successfully.
+DEBUG:root:2021-02-16 22:02:57 Getting model metrics...
+DEBUG:root:2021-02-16 22:02:57 Model metrics calculated.
+DEBUG:root:2021-02-16 22:02:57 Compiling model...
+DEBUG:root:2021-02-16 22:02:57 Model compiled.
+DEBUG:root:2021-02-16 22:02:57 Fitting model...
+WARNING:tensorflow:From /home/monika/anaconda3/lib/python3.8/site-packages/tensorflow/python/ops/summary_ops_v2.py:1277: stop (from tensorflow.python.eager.profiler) is deprecated and will be removed after 2020-07-01.
+Instructions for updating:
+use `tf.profiler.experimental.stop` instead.
+DEBUG:root:2021-02-16 22:03:17 Fitted model successfully.
+DEBUG:root:2021-02-16 22:03:17 Saving model...
+WARNING:tensorflow:From /home/monika/anaconda3/lib/python3.8/site-packages/tensorflow/python/training/tracking/tracking.py:111: Model.state_updates (from tensorflow.python.keras.engine.training) is deprecated and will be removed in a future version.
+Instructions for updating:
+This property should not be used in TensorFlow 2.0, as updates are applied automatically.
+WARNING:tensorflow:From /home/monika/anaconda3/lib/python3.8/site-packages/tensorflow/python/training/tracking/tracking.py:111: Layer.updates (from tensorflow.python.keras.engine.base_layer) is deprecated and will be removed in a future version.
+Instructions for updating:
+This property should not be used in TensorFlow 2.0, as updates are applied automatically.
+INFO:tensorflow:Assets written to: ./models/034a540cd1414546ae70ad3186b80982/assets
+DEBUG:root:2021-02-16 22:03:36 Saved model successfully.
+DEBUG:root:2021-02-16 22:03:36 Evaluating models...
+DEBUG:root:2021-02-16 22:03:36 Loading images.
+DEBUG:root:2021-02-16 22:03:36 Loaded images successfully.
+DEBUG:root:2021-02-16 22:03:50 Model evaluated successfully.
+ERROR:root:2021-02-16 22:03:50 Will calculate meadians and means.
+DEBUG:root:2021-02-16 22:03:50 Ending mlflow run.
+DEBUG:root:2021-02-16 22:12:42 Starting mlflow run...
+DEBUG:git.cmd:Popen(['git', 'version'], cwd=/home/monika/Documents/Test, universal_newlines=False, shell=None, istream=None)
+DEBUG:git.cmd:Popen(['git', 'version'], cwd=/home/monika/Documents/Test, universal_newlines=False, shell=None, istream=None)
+DEBUG:root:2021-02-16 22:12:42 Mlflow run started.
+DEBUG:root:2021-02-16 22:12:42 Getting parameters...
+DEBUG:root:2021-02-16 22:12:42 batch_size 8
+DEBUG:root:2021-02-16 22:12:42 train_epochs 1
+DEBUG:root:2021-02-16 22:12:42 test_file ./data/test.parquet
+DEBUG:root:2021-02-16 22:12:42 train_file ./data/train.parquet
+DEBUG:root:2021-02-16 22:12:42 dp_rate 0.3
+DEBUG:root:2021-02-16 22:12:42 data_limit 50
+DEBUG:root:2021-02-16 22:12:42 Done getting parameters.
+DEBUG:root:2021-02-16 22:12:42 Started loading data...
+DEBUG:root:2021-02-16 22:12:42 train.parquet loaded
+DEBUG:root:2021-02-16 22:12:42 test.parquet loaded
+DEBUG:root:2021-02-16 22:12:42 Ensuring unique data...
+DEBUG:root:2021-02-16 22:12:42 Done taking unique.
+DEBUG:root:2021-02-16 22:12:42 Data limit is less than data length.
+DEBUG:root:2021-02-16 22:12:42 Loading images.
+DEBUG:root:2021-02-16 22:12:43 Loaded images successfully.
+DEBUG:root:2021-02-16 22:12:49 Creating a model...
+DEBUG:root:2021-02-16 22:12:50 Created model successfully.
+DEBUG:root:2021-02-16 22:12:50 Getting model metrics...
+DEBUG:root:2021-02-16 22:12:50 Model metrics calculated.
+DEBUG:root:2021-02-16 22:12:50 Compiling model...
+DEBUG:root:2021-02-16 22:12:50 Model compiled.
+DEBUG:root:2021-02-16 22:12:50 Fitting model...
+WARNING:tensorflow:From /home/monika/anaconda3/lib/python3.8/site-packages/tensorflow/python/ops/summary_ops_v2.py:1277: stop (from tensorflow.python.eager.profiler) is deprecated and will be removed after 2020-07-01.
+Instructions for updating:
+use `tf.profiler.experimental.stop` instead.
+DEBUG:root:2021-02-16 22:13:10 Fitted model successfully.
+DEBUG:root:2021-02-16 22:13:10 Saving model...
+WARNING:tensorflow:From /home/monika/anaconda3/lib/python3.8/site-packages/tensorflow/python/training/tracking/tracking.py:111: Model.state_updates (from tensorflow.python.keras.engine.training) is deprecated and will be removed in a future version.
+Instructions for updating:
+This property should not be used in TensorFlow 2.0, as updates are applied automatically.
+WARNING:tensorflow:From /home/monika/anaconda3/lib/python3.8/site-packages/tensorflow/python/training/tracking/tracking.py:111: Layer.updates (from tensorflow.python.keras.engine.base_layer) is deprecated and will be removed in a future version.
+Instructions for updating:
+This property should not be used in TensorFlow 2.0, as updates are applied automatically.
+INFO:tensorflow:Assets written to: ./models/2ba78d94000147708dc6e56e8c82b57a/assets
+DEBUG:root:2021-02-16 22:13:29 Saved model successfully.
+DEBUG:root:2021-02-16 22:13:29 Evaluating models...
+DEBUG:root:2021-02-16 22:13:29 Loading images.
+DEBUG:root:2021-02-16 22:13:29 Loaded images successfully.
+DEBUG:root:2021-02-16 22:13:43 Model evaluated successfully.
+ERROR:root:2021-02-16 22:13:43 Will calculate meadians and means.
+ERROR:root:2021-02-16 22:13:43 Error calculating the meadians and means.
+DEBUG:root:2021-02-16 22:13:43 Ending mlflow run.
+DEBUG:root:2021-02-16 22:15:20 Starting mlflow run...
+DEBUG:git.cmd:Popen(['git', 'version'], cwd=/home/monika/Documents/Test, universal_newlines=False, shell=None, istream=None)
+DEBUG:git.cmd:Popen(['git', 'version'], cwd=/home/monika/Documents/Test, universal_newlines=False, shell=None, istream=None)
+DEBUG:root:2021-02-16 22:15:20 Mlflow run started.
+DEBUG:root:2021-02-16 22:15:20 Getting parameters...
+DEBUG:root:2021-02-16 22:15:20 batch_size 8
+DEBUG:root:2021-02-16 22:15:20 train_epochs 1
+DEBUG:root:2021-02-16 22:15:20 test_file ./data/test.parquet
+DEBUG:root:2021-02-16 22:15:20 train_file ./data/train.parquet
+DEBUG:root:2021-02-16 22:15:20 dp_rate 0.3
+DEBUG:root:2021-02-16 22:15:20 data_limit 50
+DEBUG:root:2021-02-16 22:15:20 Done getting parameters.
+DEBUG:root:2021-02-16 22:15:20 Started loading data...
+DEBUG:root:2021-02-16 22:15:20 train.parquet loaded
+DEBUG:root:2021-02-16 22:15:20 test.parquet loaded
+DEBUG:root:2021-02-16 22:15:20 Ensuring unique data...
+DEBUG:root:2021-02-16 22:15:20 Done taking unique.
+DEBUG:root:2021-02-16 22:15:20 Data limit is less than data length.
+DEBUG:root:2021-02-16 22:15:20 Loading images.
+DEBUG:root:2021-02-16 22:15:20 Loaded images successfully.
+DEBUG:root:2021-02-16 22:15:26 Creating a model...
+DEBUG:root:2021-02-16 22:15:28 Created model successfully.
+DEBUG:root:2021-02-16 22:15:28 Getting model metrics...
+DEBUG:root:2021-02-16 22:15:28 Model metrics calculated.
+DEBUG:root:2021-02-16 22:15:28 Compiling model...
+DEBUG:root:2021-02-16 22:15:28 Model compiled.
+DEBUG:root:2021-02-16 22:15:28 Fitting model...
+WARNING:tensorflow:From /home/monika/anaconda3/lib/python3.8/site-packages/tensorflow/python/ops/summary_ops_v2.py:1277: stop (from tensorflow.python.eager.profiler) is deprecated and will be removed after 2020-07-01.
+Instructions for updating:
+use `tf.profiler.experimental.stop` instead.
+DEBUG:root:2021-02-16 22:15:47 Fitted model successfully.
+DEBUG:root:2021-02-16 22:15:47 Saving model...
+WARNING:tensorflow:From /home/monika/anaconda3/lib/python3.8/site-packages/tensorflow/python/training/tracking/tracking.py:111: Model.state_updates (from tensorflow.python.keras.engine.training) is deprecated and will be removed in a future version.
+Instructions for updating:
+This property should not be used in TensorFlow 2.0, as updates are applied automatically.
+WARNING:tensorflow:From /home/monika/anaconda3/lib/python3.8/site-packages/tensorflow/python/training/tracking/tracking.py:111: Layer.updates (from tensorflow.python.keras.engine.base_layer) is deprecated and will be removed in a future version.
+Instructions for updating:
+This property should not be used in TensorFlow 2.0, as updates are applied automatically.
+INFO:tensorflow:Assets written to: ./models/004da7d13d2c442fad3c488f9540d008/assets
+DEBUG:root:2021-02-16 22:16:06 Saved model successfully.
+DEBUG:root:2021-02-16 22:16:06 Evaluating models...
+DEBUG:root:2021-02-16 22:16:06 Loading images.
+DEBUG:root:2021-02-16 22:16:06 Loaded images successfully.
+DEBUG:root:2021-02-16 22:16:20 Model evaluated successfully.
+ERROR:root:2021-02-16 22:16:20 Will calculate meadians and means.
+ERROR:root:2021-02-16 22:16:20 Error calculating the meadians and means.
+DEBUG:root:2021-02-16 22:16:20 Ending mlflow run.
+DEBUG:root:2021-02-16 22:18:38 Starting mlflow run...
+DEBUG:git.cmd:Popen(['git', 'version'], cwd=/home/monika/Documents/Test, universal_newlines=False, shell=None, istream=None)
+DEBUG:git.cmd:Popen(['git', 'version'], cwd=/home/monika/Documents/Test, universal_newlines=False, shell=None, istream=None)
+DEBUG:root:2021-02-16 22:18:38 Mlflow run started.
+DEBUG:root:2021-02-16 22:18:38 Getting parameters...
+DEBUG:root:2021-02-16 22:18:38 batch_size 8
+DEBUG:root:2021-02-16 22:18:38 train_epochs 1
+DEBUG:root:2021-02-16 22:18:38 test_file ./data/test.parquet
+DEBUG:root:2021-02-16 22:18:38 train_file ./data/train.parquet
+DEBUG:root:2021-02-16 22:18:38 dp_rate 0.3
+DEBUG:root:2021-02-16 22:18:38 data_limit 50
+DEBUG:root:2021-02-16 22:18:38 Done getting parameters.
+DEBUG:root:2021-02-16 22:18:38 Started loading data...
+DEBUG:root:2021-02-16 22:18:38 train.parquet loaded
+DEBUG:root:2021-02-16 22:18:38 test.parquet loaded
+DEBUG:root:2021-02-16 22:18:38 Ensuring unique data...
+DEBUG:root:2021-02-16 22:18:38 Done taking unique.
+DEBUG:root:2021-02-16 22:18:38 Data limit is less than data length.
+DEBUG:root:2021-02-16 22:18:38 Loading images.
+DEBUG:root:2021-02-16 22:18:38 Loaded images successfully.
+DEBUG:root:2021-02-16 22:18:44 Creating a model...
+DEBUG:root:2021-02-16 22:18:46 Created model successfully.
+DEBUG:root:2021-02-16 22:18:46 Getting model metrics...
+DEBUG:root:2021-02-16 22:18:46 Model metrics calculated.
+DEBUG:root:2021-02-16 22:18:46 Compiling model...
+DEBUG:root:2021-02-16 22:18:46 Model compiled.
+DEBUG:root:2021-02-16 22:18:46 Fitting model...
+WARNING:tensorflow:From /home/monika/anaconda3/lib/python3.8/site-packages/tensorflow/python/ops/summary_ops_v2.py:1277: stop (from tensorflow.python.eager.profiler) is deprecated and will be removed after 2020-07-01.
+Instructions for updating:
+use `tf.profiler.experimental.stop` instead.
+DEBUG:root:2021-02-16 22:19:07 Fitted model successfully.
+DEBUG:root:2021-02-16 22:19:07 Saving model...
+WARNING:tensorflow:From /home/monika/anaconda3/lib/python3.8/site-packages/tensorflow/python/training/tracking/tracking.py:111: Model.state_updates (from tensorflow.python.keras.engine.training) is deprecated and will be removed in a future version.
+Instructions for updating:
+This property should not be used in TensorFlow 2.0, as updates are applied automatically.
+WARNING:tensorflow:From /home/monika/anaconda3/lib/python3.8/site-packages/tensorflow/python/training/tracking/tracking.py:111: Layer.updates (from tensorflow.python.keras.engine.base_layer) is deprecated and will be removed in a future version.
+Instructions for updating:
+This property should not be used in TensorFlow 2.0, as updates are applied automatically.
+INFO:tensorflow:Assets written to: ./models/1c42a9e1139b4c78932b226373d4c69e/assets
+DEBUG:root:2021-02-16 22:19:26 Saved model successfully.
+DEBUG:root:2021-02-16 22:19:26 Evaluating models...
+DEBUG:root:2021-02-16 22:19:26 Loading images.
+DEBUG:root:2021-02-16 22:19:26 Loaded images successfully.
+DEBUG:root:2021-02-16 22:19:39 Model evaluated successfully.
+ERROR:root:2021-02-16 22:19:39 Will calculate value distribution.
+ERROR:root:2021-02-16 22:19:39 Error calculating value distribution.
+DEBUG:root:2021-02-16 22:19:39 Ending mlflow run.
+DEBUG:root:2021-02-16 22:20:37 Starting mlflow run...
+DEBUG:git.cmd:Popen(['git', 'version'], cwd=/home/monika/Documents/Test, universal_newlines=False, shell=None, istream=None)
+DEBUG:git.cmd:Popen(['git', 'version'], cwd=/home/monika/Documents/Test, universal_newlines=False, shell=None, istream=None)
+DEBUG:root:2021-02-16 22:20:38 Mlflow run started.
+DEBUG:root:2021-02-16 22:20:38 Getting parameters...
+DEBUG:root:2021-02-16 22:20:38 batch_size 8
+DEBUG:root:2021-02-16 22:20:38 train_epochs 1
+DEBUG:root:2021-02-16 22:20:38 test_file ./data/test.parquet
+DEBUG:root:2021-02-16 22:20:38 train_file ./data/train.parquet
+DEBUG:root:2021-02-16 22:20:38 dp_rate 0.3
+DEBUG:root:2021-02-16 22:20:38 data_limit 50
+DEBUG:root:2021-02-16 22:20:38 Done getting parameters.
+DEBUG:root:2021-02-16 22:20:38 Started loading data...
+DEBUG:root:2021-02-16 22:20:38 train.parquet loaded
+DEBUG:root:2021-02-16 22:20:38 test.parquet loaded
+DEBUG:root:2021-02-16 22:20:38 Ensuring unique data...
+DEBUG:root:2021-02-16 22:20:38 Done taking unique.
+DEBUG:root:2021-02-16 22:20:38 Data limit is less than data length.
+DEBUG:root:2021-02-16 22:20:38 Loading images.
+DEBUG:root:2021-02-16 22:20:38 Loaded images successfully.
+DEBUG:root:2021-02-16 22:20:44 Creating a model...
+DEBUG:root:2021-02-16 22:20:46 Created model successfully.
+DEBUG:root:2021-02-16 22:20:46 Getting model metrics...
+DEBUG:root:2021-02-16 22:20:46 Model metrics calculated.
+DEBUG:root:2021-02-16 22:20:46 Compiling model...
+DEBUG:root:2021-02-16 22:20:46 Model compiled.
+DEBUG:root:2021-02-16 22:20:46 Fitting model...
+WARNING:tensorflow:From /home/monika/anaconda3/lib/python3.8/site-packages/tensorflow/python/ops/summary_ops_v2.py:1277: stop (from tensorflow.python.eager.profiler) is deprecated and will be removed after 2020-07-01.
+Instructions for updating:
+use `tf.profiler.experimental.stop` instead.
+DEBUG:root:2021-02-16 22:21:05 Fitted model successfully.
+DEBUG:root:2021-02-16 22:21:05 Saving model...
+WARNING:tensorflow:From /home/monika/anaconda3/lib/python3.8/site-packages/tensorflow/python/training/tracking/tracking.py:111: Model.state_updates (from tensorflow.python.keras.engine.training) is deprecated and will be removed in a future version.
+Instructions for updating:
+This property should not be used in TensorFlow 2.0, as updates are applied automatically.
+WARNING:tensorflow:From /home/monika/anaconda3/lib/python3.8/site-packages/tensorflow/python/training/tracking/tracking.py:111: Layer.updates (from tensorflow.python.keras.engine.base_layer) is deprecated and will be removed in a future version.
+Instructions for updating:
+This property should not be used in TensorFlow 2.0, as updates are applied automatically.
+INFO:tensorflow:Assets written to: ./models/ac2da41499aa47458d5c0fafc3031d75/assets
+DEBUG:root:2021-02-16 22:21:25 Saved model successfully.
+DEBUG:root:2021-02-16 22:21:25 Evaluating models...
+DEBUG:root:2021-02-16 22:21:25 Loading images.
+DEBUG:root:2021-02-16 22:21:25 Loaded images successfully.
+DEBUG:root:2021-02-16 22:21:38 Model evaluated successfully.
+ERROR:root:2021-02-16 22:21:38 Will calculate value distribution.
+ERROR:root:2021-02-16 22:21:38 Error calculating value distribution.
+DEBUG:root:2021-02-16 22:21:38 Ending mlflow run.
+DEBUG:root:2021-02-16 22:22:18 Starting mlflow run...
+DEBUG:git.cmd:Popen(['git', 'version'], cwd=/home/monika/Documents/Test, universal_newlines=False, shell=None, istream=None)
+DEBUG:git.cmd:Popen(['git', 'version'], cwd=/home/monika/Documents/Test, universal_newlines=False, shell=None, istream=None)
+DEBUG:root:2021-02-16 22:22:18 Mlflow run started.
+DEBUG:root:2021-02-16 22:22:18 Getting parameters...
+DEBUG:root:2021-02-16 22:22:18 batch_size 8
+DEBUG:root:2021-02-16 22:22:18 train_epochs 1
+DEBUG:root:2021-02-16 22:22:18 test_file ./data/test.parquet
+DEBUG:root:2021-02-16 22:22:18 train_file ./data/train.parquet
+DEBUG:root:2021-02-16 22:22:18 dp_rate 0.3
+DEBUG:root:2021-02-16 22:22:18 data_limit 50
+DEBUG:root:2021-02-16 22:22:18 Done getting parameters.
+DEBUG:root:2021-02-16 22:22:18 Started loading data...
+DEBUG:root:2021-02-16 22:22:18 train.parquet loaded
+DEBUG:root:2021-02-16 22:22:18 test.parquet loaded
+DEBUG:root:2021-02-16 22:22:18 Ensuring unique data...
+DEBUG:root:2021-02-16 22:22:18 Done taking unique.
+DEBUG:root:2021-02-16 22:22:18 Data limit is less than data length.
+DEBUG:root:2021-02-16 22:22:18 Loading images.
+DEBUG:root:2021-02-16 22:22:18 Loaded images successfully.
+DEBUG:root:2021-02-16 22:22:24 Creating a model...
+DEBUG:root:2021-02-16 22:22:25 Created model successfully.
+DEBUG:root:2021-02-16 22:22:25 Getting model metrics...
+DEBUG:root:2021-02-16 22:22:25 Model metrics calculated.
+DEBUG:root:2021-02-16 22:22:25 Compiling model...
+DEBUG:root:2021-02-16 22:22:25 Model compiled.
+DEBUG:root:2021-02-16 22:22:25 Fitting model...
+WARNING:tensorflow:From /home/monika/anaconda3/lib/python3.8/site-packages/tensorflow/python/ops/summary_ops_v2.py:1277: stop (from tensorflow.python.eager.profiler) is deprecated and will be removed after 2020-07-01.
+Instructions for updating:
+use `tf.profiler.experimental.stop` instead.
+DEBUG:root:2021-02-16 22:22:45 Fitted model successfully.
+DEBUG:root:2021-02-16 22:22:45 Saving model...
+WARNING:tensorflow:From /home/monika/anaconda3/lib/python3.8/site-packages/tensorflow/python/training/tracking/tracking.py:111: Model.state_updates (from tensorflow.python.keras.engine.training) is deprecated and will be removed in a future version.
+Instructions for updating:
+This property should not be used in TensorFlow 2.0, as updates are applied automatically.
+WARNING:tensorflow:From /home/monika/anaconda3/lib/python3.8/site-packages/tensorflow/python/training/tracking/tracking.py:111: Layer.updates (from tensorflow.python.keras.engine.base_layer) is deprecated and will be removed in a future version.
+Instructions for updating:
+This property should not be used in TensorFlow 2.0, as updates are applied automatically.
+INFO:tensorflow:Assets written to: ./models/efcce85c13384f7aabb42ea1328f112b/assets
+DEBUG:root:2021-02-16 22:23:04 Saved model successfully.
+DEBUG:root:2021-02-16 22:23:04 Evaluating models...
+DEBUG:root:2021-02-16 22:23:04 Loading images.
+DEBUG:root:2021-02-16 22:23:04 Loaded images successfully.
+DEBUG:root:2021-02-16 22:23:18 Model evaluated successfully.
+ERROR:root:2021-02-16 22:23:18 Will calculate value distribution.
+ERROR:root:2021-02-16 22:23:18 Error calculating value distribution.
+DEBUG:root:2021-02-16 22:23:18 Ending mlflow run.
+DEBUG:root:2021-02-16 22:24:59 Starting mlflow run...
+DEBUG:git.cmd:Popen(['git', 'version'], cwd=/home/monika/Documents/Test, universal_newlines=False, shell=None, istream=None)
+DEBUG:git.cmd:Popen(['git', 'version'], cwd=/home/monika/Documents/Test, universal_newlines=False, shell=None, istream=None)
+DEBUG:root:2021-02-16 22:24:59 Mlflow run started.
+DEBUG:root:2021-02-16 22:24:59 Getting parameters...
+DEBUG:root:2021-02-16 22:24:59 batch_size 8
+DEBUG:root:2021-02-16 22:24:59 train_epochs 1
+DEBUG:root:2021-02-16 22:24:59 test_file ./data/test.parquet
+DEBUG:root:2021-02-16 22:24:59 train_file ./data/train.parquet
+DEBUG:root:2021-02-16 22:24:59 dp_rate 0.3
+DEBUG:root:2021-02-16 22:24:59 data_limit 50
+DEBUG:root:2021-02-16 22:24:59 Done getting parameters.
+DEBUG:root:2021-02-16 22:24:59 Started loading data...
+DEBUG:root:2021-02-16 22:24:59 train.parquet loaded
+DEBUG:root:2021-02-16 22:24:59 test.parquet loaded
+DEBUG:root:2021-02-16 22:24:59 Ensuring unique data...
+DEBUG:root:2021-02-16 22:24:59 Done taking unique.
+DEBUG:root:2021-02-16 22:24:59 Data limit is less than data length.
+DEBUG:root:2021-02-16 22:24:59 Loading images.
+DEBUG:root:2021-02-16 22:24:59 Loaded images successfully.
+DEBUG:root:2021-02-16 22:25:05 Creating a model...
+DEBUG:root:2021-02-16 22:25:07 Created model successfully.
+DEBUG:root:2021-02-16 22:25:07 Getting model metrics...
+DEBUG:root:2021-02-16 22:25:07 Model metrics calculated.
+DEBUG:root:2021-02-16 22:25:07 Compiling model...
+DEBUG:root:2021-02-16 22:25:07 Model compiled.
+DEBUG:root:2021-02-16 22:25:07 Fitting model...
+WARNING:tensorflow:From /home/monika/anaconda3/lib/python3.8/site-packages/tensorflow/python/ops/summary_ops_v2.py:1277: stop (from tensorflow.python.eager.profiler) is deprecated and will be removed after 2020-07-01.
+Instructions for updating:
+use `tf.profiler.experimental.stop` instead.
+DEBUG:root:2021-02-16 22:25:26 Fitted model successfully.
+DEBUG:root:2021-02-16 22:25:26 Saving model...
+WARNING:tensorflow:From /home/monika/anaconda3/lib/python3.8/site-packages/tensorflow/python/training/tracking/tracking.py:111: Model.state_updates (from tensorflow.python.keras.engine.training) is deprecated and will be removed in a future version.
+Instructions for updating:
+This property should not be used in TensorFlow 2.0, as updates are applied automatically.
+WARNING:tensorflow:From /home/monika/anaconda3/lib/python3.8/site-packages/tensorflow/python/training/tracking/tracking.py:111: Layer.updates (from tensorflow.python.keras.engine.base_layer) is deprecated and will be removed in a future version.
+Instructions for updating:
+This property should not be used in TensorFlow 2.0, as updates are applied automatically.
+INFO:tensorflow:Assets written to: ./models/27bd7af948564084864de15cb01074da/assets
+DEBUG:root:2021-02-16 22:25:45 Saved model successfully.
+DEBUG:root:2021-02-16 22:25:45 Evaluating models...
+DEBUG:root:2021-02-16 22:25:45 Loading images.
+DEBUG:root:2021-02-16 22:25:45 Loaded images successfully.
+DEBUG:root:2021-02-16 22:25:59 Model evaluated successfully.
+ERROR:root:2021-02-16 22:25:59 Will calculate value distribution.
+ERROR:root:2021-02-16 22:25:59 Calculated value distribution.
+DEBUG:root:2021-02-16 22:25:59 Ending mlflow run.
+DEBUG:root:2021-02-16 22:29:44 Starting mlflow run...
+DEBUG:git.cmd:Popen(['git', 'version'], cwd=/home/monika/Documents/Test, universal_newlines=False, shell=None, istream=None)
+DEBUG:git.cmd:Popen(['git', 'version'], cwd=/home/monika/Documents/Test, universal_newlines=False, shell=None, istream=None)
+DEBUG:root:2021-02-16 22:29:44 Mlflow run started.
+DEBUG:root:2021-02-16 22:29:44 Getting parameters...
+DEBUG:root:2021-02-16 22:29:44 batch_size 8
+DEBUG:root:2021-02-16 22:29:44 train_epochs 1
+DEBUG:root:2021-02-16 22:29:44 test_file ./data/test.parquet
+DEBUG:root:2021-02-16 22:29:44 train_file ./data/train.parquet
+DEBUG:root:2021-02-16 22:29:44 dp_rate 0.3
+DEBUG:root:2021-02-16 22:29:44 data_limit 50
+DEBUG:root:2021-02-16 22:29:44 Done getting parameters.
+DEBUG:root:2021-02-16 22:29:44 Started loading data...
+DEBUG:root:2021-02-16 22:29:44 train.parquet loaded
+DEBUG:root:2021-02-16 22:29:44 test.parquet loaded
+DEBUG:root:2021-02-16 22:29:44 Ensuring unique data...
+DEBUG:root:2021-02-16 22:29:44 Done taking unique.
+DEBUG:root:2021-02-16 22:29:44 Data limit is less than data length.
+DEBUG:root:2021-02-16 22:29:44 Loading images.
+DEBUG:root:2021-02-16 22:29:45 Loaded images successfully.
+DEBUG:root:2021-02-16 22:29:51 Creating a model...
+DEBUG:root:2021-02-16 22:29:52 Created model successfully.
+DEBUG:root:2021-02-16 22:29:52 Getting model metrics...
+DEBUG:root:2021-02-16 22:29:52 Model metrics calculated.
+DEBUG:root:2021-02-16 22:29:52 Compiling model...
+DEBUG:root:2021-02-16 22:29:52 Model compiled.
+DEBUG:root:2021-02-16 22:29:52 Fitting model...
+WARNING:tensorflow:From /home/monika/anaconda3/lib/python3.8/site-packages/tensorflow/python/ops/summary_ops_v2.py:1277: stop (from tensorflow.python.eager.profiler) is deprecated and will be removed after 2020-07-01.
+Instructions for updating:
+use `tf.profiler.experimental.stop` instead.
+DEBUG:root:2021-02-16 22:30:17 Fitted model successfully.
+DEBUG:root:2021-02-16 22:30:17 Saving model...
+WARNING:tensorflow:From /home/monika/anaconda3/lib/python3.8/site-packages/tensorflow/python/training/tracking/tracking.py:111: Model.state_updates (from tensorflow.python.keras.engine.training) is deprecated and will be removed in a future version.
+Instructions for updating:
+This property should not be used in TensorFlow 2.0, as updates are applied automatically.
+WARNING:tensorflow:From /home/monika/anaconda3/lib/python3.8/site-packages/tensorflow/python/training/tracking/tracking.py:111: Layer.updates (from tensorflow.python.keras.engine.base_layer) is deprecated and will be removed in a future version.
+Instructions for updating:
+This property should not be used in TensorFlow 2.0, as updates are applied automatically.
+INFO:tensorflow:Assets written to: ./models/1dda4e39d7bb4ef587201a415b6947c7/assets
+DEBUG:root:2021-02-16 22:30:36 Saved model successfully.
+DEBUG:root:2021-02-16 22:30:36 Evaluating models...
+DEBUG:root:2021-02-16 22:30:36 Loading images.
+DEBUG:root:2021-02-16 22:30:36 Loaded images successfully.
+DEBUG:root:2021-02-16 22:30:50 Model evaluated successfully.
+ERROR:root:2021-02-16 22:30:50 Will calculate value distribution.
+ERROR:root:2021-02-16 22:30:50 Calculated value distribution.
+DEBUG:root:2021-02-16 22:30:50 Ending mlflow run.
+DEBUG:root:2021-02-16 22:34:39 Starting mlflow run...
+DEBUG:git.cmd:Popen(['git', 'version'], cwd=/home/monika/Documents/Test, universal_newlines=False, shell=None, istream=None)
+DEBUG:git.cmd:Popen(['git', 'version'], cwd=/home/monika/Documents/Test, universal_newlines=False, shell=None, istream=None)
+DEBUG:root:2021-02-16 22:34:39 Mlflow run started.
+DEBUG:root:2021-02-16 22:34:39 Getting parameters...
+DEBUG:root:2021-02-16 22:34:39 batch_size 8
+DEBUG:root:2021-02-16 22:34:39 train_epochs 1
+DEBUG:root:2021-02-16 22:34:39 test_file ./data/test.parquet
+DEBUG:root:2021-02-16 22:34:39 train_file ./data/train.parquet
+DEBUG:root:2021-02-16 22:34:39 dp_rate 0.3
+DEBUG:root:2021-02-16 22:34:39 data_limit 50
+DEBUG:root:2021-02-16 22:34:39 Done getting parameters.
+DEBUG:root:2021-02-16 22:34:39 Started loading data...
+DEBUG:root:2021-02-16 22:34:39 train.parquet loaded
+DEBUG:root:2021-02-16 22:34:39 test.parquet loaded
+DEBUG:root:2021-02-16 22:34:39 Ensuring unique data...
+DEBUG:root:2021-02-16 22:34:39 Done taking unique.
+DEBUG:root:2021-02-16 22:34:39 Data limit is less than data length.
+DEBUG:root:2021-02-16 22:34:39 Loading images.
+DEBUG:root:2021-02-16 22:34:39 Loaded images successfully.
+DEBUG:root:2021-02-16 22:34:45 Creating a model...
+DEBUG:root:2021-02-16 22:34:47 Created model successfully.
+DEBUG:root:2021-02-16 22:34:47 Getting model metrics...
+DEBUG:root:2021-02-16 22:34:47 Model metrics calculated.
+DEBUG:root:2021-02-16 22:34:47 Compiling model...
+DEBUG:root:2021-02-16 22:34:47 Model compiled.
+DEBUG:root:2021-02-16 22:34:47 Fitting model...
+WARNING:tensorflow:From /home/monika/anaconda3/lib/python3.8/site-packages/tensorflow/python/ops/summary_ops_v2.py:1277: stop (from tensorflow.python.eager.profiler) is deprecated and will be removed after 2020-07-01.
+Instructions for updating:
+use `tf.profiler.experimental.stop` instead.
+DEBUG:root:2021-02-16 22:35:06 Fitted model successfully.
+DEBUG:root:2021-02-16 22:35:06 Saving model...
+WARNING:tensorflow:From /home/monika/anaconda3/lib/python3.8/site-packages/tensorflow/python/training/tracking/tracking.py:111: Model.state_updates (from tensorflow.python.keras.engine.training) is deprecated and will be removed in a future version.
+Instructions for updating:
+This property should not be used in TensorFlow 2.0, as updates are applied automatically.
+WARNING:tensorflow:From /home/monika/anaconda3/lib/python3.8/site-packages/tensorflow/python/training/tracking/tracking.py:111: Layer.updates (from tensorflow.python.keras.engine.base_layer) is deprecated and will be removed in a future version.
+Instructions for updating:
+This property should not be used in TensorFlow 2.0, as updates are applied automatically.
+INFO:tensorflow:Assets written to: ./models/70ed472698e14b34942ed11b5ec09cb3/assets
+DEBUG:root:2021-02-16 22:35:25 Saved model successfully.
+DEBUG:root:2021-02-16 22:35:26 Evaluating models...
+DEBUG:root:2021-02-16 22:35:26 Loading images.
+DEBUG:root:2021-02-16 22:35:26 Loaded images successfully.
+DEBUG:root:2021-02-16 22:35:40 Model evaluated successfully.
+ERROR:root:2021-02-16 22:35:40 Will calculate value distribution.
+INFO:numexpr.utils:NumExpr defaulting to 4 threads.
+ERROR:root:2021-02-16 22:35:40 Calculated value distribution.
+DEBUG:root:2021-02-16 22:35:40 Ending mlflow run.
+DEBUG:root:2021-02-16 22:41:00 Starting mlflow run...
+DEBUG:git.cmd:Popen(['git', 'version'], cwd=/home/monika/Documents/Test, universal_newlines=False, shell=None, istream=None)
+DEBUG:git.cmd:Popen(['git', 'version'], cwd=/home/monika/Documents/Test, universal_newlines=False, shell=None, istream=None)
+DEBUG:root:2021-02-16 22:41:00 Mlflow run started.
+DEBUG:root:2021-02-16 22:41:00 Getting parameters...
+DEBUG:root:2021-02-16 22:41:00 batch_size 8
+DEBUG:root:2021-02-16 22:41:00 train_epochs 1
+DEBUG:root:2021-02-16 22:41:00 test_file ./data/test.parquet
+DEBUG:root:2021-02-16 22:41:00 train_file ./data/train.parquet
+DEBUG:root:2021-02-16 22:41:00 dp_rate 0.3
+DEBUG:root:2021-02-16 22:41:00 data_limit 50
+DEBUG:root:2021-02-16 22:41:00 Done getting parameters.
+DEBUG:root:2021-02-16 22:41:00 Started loading data...
+DEBUG:root:2021-02-16 22:41:01 train.parquet loaded
+DEBUG:root:2021-02-16 22:41:01 test.parquet loaded
+DEBUG:root:2021-02-16 22:41:01 Ensuring unique data...
+DEBUG:root:2021-02-16 22:41:01 Done taking unique.
+DEBUG:root:2021-02-16 22:41:01 Data limit is less than data length.
+DEBUG:root:2021-02-16 22:41:01 Loading images.
+DEBUG:root:2021-02-16 22:41:01 Loaded images successfully.
+DEBUG:root:2021-02-16 22:41:07 Creating a model...
+DEBUG:root:2021-02-16 22:41:08 Created model successfully.
+DEBUG:root:2021-02-16 22:41:08 Getting model metrics...
+DEBUG:root:2021-02-16 22:41:08 Model metrics calculated.
+DEBUG:root:2021-02-16 22:41:08 Compiling model...
+DEBUG:root:2021-02-16 22:41:08 Model compiled.
+DEBUG:root:2021-02-16 22:41:08 Fitting model...
+WARNING:tensorflow:From /home/monika/anaconda3/lib/python3.8/site-packages/tensorflow/python/ops/summary_ops_v2.py:1277: stop (from tensorflow.python.eager.profiler) is deprecated and will be removed after 2020-07-01.
+Instructions for updating:
+use `tf.profiler.experimental.stop` instead.
+DEBUG:root:2021-02-16 22:41:28 Fitted model successfully.
+DEBUG:root:2021-02-16 22:41:28 Saving model...
+WARNING:tensorflow:From /home/monika/anaconda3/lib/python3.8/site-packages/tensorflow/python/training/tracking/tracking.py:111: Model.state_updates (from tensorflow.python.keras.engine.training) is deprecated and will be removed in a future version.
+Instructions for updating:
+This property should not be used in TensorFlow 2.0, as updates are applied automatically.
+WARNING:tensorflow:From /home/monika/anaconda3/lib/python3.8/site-packages/tensorflow/python/training/tracking/tracking.py:111: Layer.updates (from tensorflow.python.keras.engine.base_layer) is deprecated and will be removed in a future version.
+Instructions for updating:
+This property should not be used in TensorFlow 2.0, as updates are applied automatically.
+INFO:tensorflow:Assets written to: ./models/7a719ff49bdd4fdb8e32873f4aa3c252/assets
+DEBUG:root:2021-02-16 22:41:47 Saved model successfully.
+DEBUG:root:2021-02-16 22:41:47 Evaluating models...
+DEBUG:root:2021-02-16 22:41:47 Loading images.
+DEBUG:root:2021-02-16 22:41:47 Loaded images successfully.
+DEBUG:root:2021-02-16 22:42:00 Model evaluated successfully.
+ERROR:root:2021-02-16 22:42:00 Will calculate value distribution.
+INFO:numexpr.utils:NumExpr defaulting to 4 threads.
+ERROR:root:2021-02-16 22:42:00 Calculated value distribution.
+DEBUG:root:2021-02-16 22:42:00 Ending mlflow run.
+DEBUG:root:2021-02-16 22:43:46 Starting mlflow run...
+DEBUG:git.cmd:Popen(['git', 'version'], cwd=/home/monika/Documents/Test, universal_newlines=False, shell=None, istream=None)
+DEBUG:git.cmd:Popen(['git', 'version'], cwd=/home/monika/Documents/Test, universal_newlines=False, shell=None, istream=None)
+DEBUG:root:2021-02-16 22:43:46 Mlflow run started.
+DEBUG:root:2021-02-16 22:43:46 Getting parameters...
+DEBUG:root:2021-02-16 22:43:46 batch_size 8
+DEBUG:root:2021-02-16 22:43:46 train_epochs 1
+DEBUG:root:2021-02-16 22:43:46 test_file ./data/test.parquet
+DEBUG:root:2021-02-16 22:43:46 train_file ./data/train.parquet
+DEBUG:root:2021-02-16 22:43:46 dp_rate 0.3
+DEBUG:root:2021-02-16 22:43:46 data_limit 50
+DEBUG:root:2021-02-16 22:43:46 Done getting parameters.
+DEBUG:root:2021-02-16 22:43:46 Started loading data...
+DEBUG:root:2021-02-16 22:43:46 train.parquet loaded
+DEBUG:root:2021-02-16 22:43:46 test.parquet loaded
+DEBUG:root:2021-02-16 22:43:46 Ensuring unique data...
+DEBUG:root:2021-02-16 22:43:46 Done taking unique.
+DEBUG:root:2021-02-16 22:43:46 Data limit is less than data length.
+DEBUG:root:2021-02-16 22:43:46 Loading images.
+DEBUG:root:2021-02-16 22:43:47 Loaded images successfully.
+DEBUG:root:2021-02-16 22:43:53 Creating a model...
+DEBUG:root:2021-02-16 22:43:54 Created model successfully.
+DEBUG:root:2021-02-16 22:43:54 Getting model metrics...
+DEBUG:root:2021-02-16 22:43:54 Model metrics calculated.
+DEBUG:root:2021-02-16 22:43:54 Compiling model...
+DEBUG:root:2021-02-16 22:43:54 Model compiled.
+DEBUG:root:2021-02-16 22:43:54 Fitting model...
+WARNING:tensorflow:From /home/monika/anaconda3/lib/python3.8/site-packages/tensorflow/python/ops/summary_ops_v2.py:1277: stop (from tensorflow.python.eager.profiler) is deprecated and will be removed after 2020-07-01.
+Instructions for updating:
+use `tf.profiler.experimental.stop` instead.
+DEBUG:root:2021-02-16 22:44:14 Fitted model successfully.
+DEBUG:root:2021-02-16 22:44:14 Saving model...
+WARNING:tensorflow:From /home/monika/anaconda3/lib/python3.8/site-packages/tensorflow/python/training/tracking/tracking.py:111: Model.state_updates (from tensorflow.python.keras.engine.training) is deprecated and will be removed in a future version.
+Instructions for updating:
+This property should not be used in TensorFlow 2.0, as updates are applied automatically.
+WARNING:tensorflow:From /home/monika/anaconda3/lib/python3.8/site-packages/tensorflow/python/training/tracking/tracking.py:111: Layer.updates (from tensorflow.python.keras.engine.base_layer) is deprecated and will be removed in a future version.
+Instructions for updating:
+This property should not be used in TensorFlow 2.0, as updates are applied automatically.
+INFO:tensorflow:Assets written to: ./models/00e166bc0b1d43e4ae9f8c2538702e75/assets
+DEBUG:root:2021-02-16 22:44:33 Saved model successfully.
+DEBUG:root:2021-02-16 22:44:33 Evaluating models...
+DEBUG:root:2021-02-16 22:44:33 Loading images.
+DEBUG:root:2021-02-16 22:44:33 Loaded images successfully.
+DEBUG:root:2021-02-16 22:44:47 Model evaluated successfully.
+ERROR:root:2021-02-16 22:44:47 Will calculate value distribution.
+INFO:numexpr.utils:NumExpr defaulting to 4 threads.
+ERROR:root:2021-02-16 22:44:47 Calculated value distribution.
+DEBUG:root:2021-02-16 22:44:47 Ending mlflow run.
+DEBUG:root:2021-02-16 22:45:59 Starting mlflow run...
+DEBUG:git.cmd:Popen(['git', 'version'], cwd=/home/monika/Documents/Test, universal_newlines=False, shell=None, istream=None)
+DEBUG:git.cmd:Popen(['git', 'version'], cwd=/home/monika/Documents/Test, universal_newlines=False, shell=None, istream=None)
+DEBUG:root:2021-02-16 22:45:59 Mlflow run started.
+DEBUG:root:2021-02-16 22:45:59 Getting parameters...
+DEBUG:root:2021-02-16 22:45:59 batch_size 8
+DEBUG:root:2021-02-16 22:45:59 train_epochs 1
+DEBUG:root:2021-02-16 22:45:59 test_file ./data/test.parquet
+DEBUG:root:2021-02-16 22:45:59 train_file ./data/train.parquet
+DEBUG:root:2021-02-16 22:45:59 dp_rate 0.3
+DEBUG:root:2021-02-16 22:45:59 data_limit 50
+DEBUG:root:2021-02-16 22:45:59 Done getting parameters.
+DEBUG:root:2021-02-16 22:45:59 Started loading data...
+DEBUG:root:2021-02-16 22:45:59 train.parquet loaded
+DEBUG:root:2021-02-16 22:45:59 test.parquet loaded
+DEBUG:root:2021-02-16 22:45:59 Ensuring unique data...
+DEBUG:root:2021-02-16 22:45:59 Done taking unique.
+DEBUG:root:2021-02-16 22:45:59 Data limit is less than data length.
+DEBUG:root:2021-02-16 22:45:59 Loading images.
+DEBUG:root:2021-02-16 22:45:59 Loaded images successfully.
+DEBUG:root:2021-02-16 22:46:05 Creating a model...
+DEBUG:root:2021-02-16 22:46:07 Created model successfully.
+DEBUG:root:2021-02-16 22:46:07 Getting model metrics...
+DEBUG:root:2021-02-16 22:46:07 Model metrics calculated.
+DEBUG:root:2021-02-16 22:46:07 Compiling model...
+DEBUG:root:2021-02-16 22:46:07 Model compiled.
+DEBUG:root:2021-02-16 22:46:07 Fitting model...
+WARNING:tensorflow:From /home/monika/anaconda3/lib/python3.8/site-packages/tensorflow/python/ops/summary_ops_v2.py:1277: stop (from tensorflow.python.eager.profiler) is deprecated and will be removed after 2020-07-01.
+Instructions for updating:
+use `tf.profiler.experimental.stop` instead.
+DEBUG:root:2021-02-16 22:46:27 Fitted model successfully.
+DEBUG:root:2021-02-16 22:46:27 Saving model...
+WARNING:tensorflow:From /home/monika/anaconda3/lib/python3.8/site-packages/tensorflow/python/training/tracking/tracking.py:111: Model.state_updates (from tensorflow.python.keras.engine.training) is deprecated and will be removed in a future version.
+Instructions for updating:
+This property should not be used in TensorFlow 2.0, as updates are applied automatically.
+WARNING:tensorflow:From /home/monika/anaconda3/lib/python3.8/site-packages/tensorflow/python/training/tracking/tracking.py:111: Layer.updates (from tensorflow.python.keras.engine.base_layer) is deprecated and will be removed in a future version.
+Instructions for updating:
+This property should not be used in TensorFlow 2.0, as updates are applied automatically.
+INFO:tensorflow:Assets written to: ./models/090d0ae35727413ca5e2a949a5f0040e/assets
+DEBUG:root:2021-02-16 22:46:45 Saved model successfully.
+DEBUG:root:2021-02-16 22:46:46 Evaluating models...
+DEBUG:root:2021-02-16 22:46:46 Loading images.
+DEBUG:root:2021-02-16 22:46:46 Loaded images successfully.
+DEBUG:root:2021-02-16 22:46:59 Model evaluated successfully.
+ERROR:root:2021-02-16 22:46:59 Will calculate value distribution.
+INFO:numexpr.utils:NumExpr defaulting to 4 threads.
+ERROR:root:2021-02-16 22:46:59 Calculated value distribution.
+DEBUG:root:2021-02-16 22:46:59 Ending mlflow run.
+DEBUG:root:2021-02-16 22:58:35 Starting mlflow run...
+DEBUG:git.cmd:Popen(['git', 'version'], cwd=/home/monika/Documents/Test, universal_newlines=False, shell=None, istream=None)
+DEBUG:git.cmd:Popen(['git', 'version'], cwd=/home/monika/Documents/Test, universal_newlines=False, shell=None, istream=None)
+DEBUG:root:2021-02-16 22:58:35 Mlflow run started.
+DEBUG:root:2021-02-16 22:58:35 Getting parameters...
+DEBUG:root:2021-02-16 22:58:35 batch_size 8
+DEBUG:root:2021-02-16 22:58:35 train_epochs 1
+DEBUG:root:2021-02-16 22:58:35 test_file ./data/test.parquet
+DEBUG:root:2021-02-16 22:58:35 train_file ./data/train.parquet
+DEBUG:root:2021-02-16 22:58:35 dp_rate 0.3
+DEBUG:root:2021-02-16 22:58:35 data_limit 50
+DEBUG:root:2021-02-16 22:58:35 Done getting parameters.
+DEBUG:root:2021-02-16 22:58:35 Started loading data...
+DEBUG:root:2021-02-16 22:58:35 train.parquet loaded
+DEBUG:root:2021-02-16 22:58:35 test.parquet loaded
+DEBUG:root:2021-02-16 22:58:35 Ensuring unique data...
+DEBUG:root:2021-02-16 22:58:35 Done taking unique.
+DEBUG:root:2021-02-16 22:58:35 Data limit is less than data length.
+DEBUG:root:2021-02-16 22:58:35 Loading images.
+DEBUG:root:2021-02-16 22:58:35 Loaded images successfully.
+DEBUG:root:2021-02-16 22:58:41 Creating a model...
+DEBUG:root:2021-02-16 22:58:43 Created model successfully.
+DEBUG:root:2021-02-16 22:58:43 Getting model metrics...
+DEBUG:root:2021-02-16 22:58:43 Model metrics calculated.
+DEBUG:root:2021-02-16 22:58:43 Compiling model...
+DEBUG:root:2021-02-16 22:58:43 Model compiled.
+DEBUG:root:2021-02-16 22:58:43 Fitting model...
+WARNING:tensorflow:From /home/monika/anaconda3/lib/python3.8/site-packages/tensorflow/python/ops/summary_ops_v2.py:1277: stop (from tensorflow.python.eager.profiler) is deprecated and will be removed after 2020-07-01.
+Instructions for updating:
+use `tf.profiler.experimental.stop` instead.
+DEBUG:root:2021-02-16 22:59:03 Fitted model successfully.
+DEBUG:root:2021-02-16 22:59:03 Saving model...
+WARNING:tensorflow:From /home/monika/anaconda3/lib/python3.8/site-packages/tensorflow/python/training/tracking/tracking.py:111: Model.state_updates (from tensorflow.python.keras.engine.training) is deprecated and will be removed in a future version.
+Instructions for updating:
+This property should not be used in TensorFlow 2.0, as updates are applied automatically.
+WARNING:tensorflow:From /home/monika/anaconda3/lib/python3.8/site-packages/tensorflow/python/training/tracking/tracking.py:111: Layer.updates (from tensorflow.python.keras.engine.base_layer) is deprecated and will be removed in a future version.
+Instructions for updating:
+This property should not be used in TensorFlow 2.0, as updates are applied automatically.
+INFO:tensorflow:Assets written to: ./models/f802f9f7fa7246a19a47e1c3d1caed59/assets
+DEBUG:root:2021-02-16 22:59:23 Saved model successfully.
+DEBUG:root:2021-02-16 22:59:23 Evaluating models...
+DEBUG:root:2021-02-16 22:59:23 Loading images.
+DEBUG:root:2021-02-16 22:59:23 Loaded images successfully.
+DEBUG:root:2021-02-16 22:59:36 Model evaluated successfully.
+ERROR:root:2021-02-16 22:59:36 Will calculate value distribution.
+INFO:numexpr.utils:NumExpr defaulting to 4 threads.
+ERROR:root:2021-02-16 22:59:36 Calculated value distribution.
+DEBUG:root:2021-02-16 22:59:36 Ending mlflow run.

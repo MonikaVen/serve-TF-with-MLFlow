@@ -1,0 +1,1 @@
+model = './models/clothes/1/saved_model.pb'
