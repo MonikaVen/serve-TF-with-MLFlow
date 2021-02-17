@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="container">
+    <h1>Predicted Class: {{ result.class_name }}</h1>
+    <h2>Time to make a prediction: {{ result.time }}</h2>
+    <hr>
+    <div><img src="{{ result.path_to_image }}" class="img-rounded" width="{{ result.size }}" height="auto"></div>
+    <hr>
+    <a href = "{{ url_for('index') }}" class="btn btn-default">Go Back</a>
+</div>
+{% endblock %}

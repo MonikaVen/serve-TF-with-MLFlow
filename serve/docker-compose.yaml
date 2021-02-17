@@ -1,0 +1,19 @@
+version: "3.3"
+services:
+  tensorflow-serving:
+    image: tensorflow/serving:2.3.0
+    container_name: tf_serving
+    command: --model_config_file=/models/models.config
+    volumes:
+      - ./models/models.config:/models/models.config
+      - ./models/clothes:/models/clothes
+    ports:
+      - 8500:8500
+      - 8501:8501
+  flask-app:
+    build: ./FlaskApp/.
+    volumes:
+      - ./logs:/application/logs
+    ports:
+      - 5001:5001
+

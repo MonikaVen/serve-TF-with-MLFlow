@@ -1,1 +1,0 @@
-[{"run_id": "cbdde41b75ad4b9eab739fbcf9dc040c", "artifact_path": "model", "utc_time_created": "2021-02-16 14:02:46.531928", "flavors": {"keras": {"keras_module": "keras", "keras_version": "2.4.3", "save_format": "h5", "data": "data"}, "python_function": {"loader_module": "mlflow.keras", "python_version": "3.8.5", "data": "data", "env": "conda.yaml"}}}]
