@@ -4,14 +4,16 @@
 
 Make sure you have python, tensorflow and postgres installed:
 
-`sudo apt install python3 python3-pip
-apt install libgl1-mesa-glx
-apt install postgresql postgresql-contrib postgresql-server-dev-all
-sudo apt install gcc`
+`sudo apt install python3 python3-pip libgl1-mesa-glx postgresql postgresql-contrib postgresql-server-dev-all gcc`
+
+MLFlow needs conda. For our purposes miniconda will do:
+
+https://docs.conda.io/en/latest/miniconda.html
+
 
 ## Install MLFlow:
 
-`pip3 install mlflow`
+`pip3 install mlflow==1.13.1`
 
 Create a backend store for MLFlow:
 
@@ -20,6 +22,7 @@ Create a backend store for MLFlow:
 `CREATE DATABASE mlflow_db;
 CREATE USER mlflow_user WITH ENCRYPTED PASSWORD 'mlflow';
 GRANT ALL PRIVILEGES ON DATABASE mlflow_db TO mlflow_user;`
+`\q`
 
 `pip3 install psycopg2-binary`
 
