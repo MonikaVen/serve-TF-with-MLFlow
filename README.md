@@ -56,7 +56,7 @@ Served in this way model would provide production logs.
 https://github.com/mlflow/mlflow/issues/2830
 
 Logs can be found at mllogs folder.
-Parameters are logged into 'mlruns/0/b2f1db7f53124d75af5d6ecc84d89bfb/artifacts/data.json', also displayed in MLFlow.
+Parameters are logged and also displayed in MLFlow.
 
 For the display of metrics and parameters also check MLFlow ui at:
 
