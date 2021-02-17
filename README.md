@@ -59,8 +59,8 @@ Since this type of serving cannot support the multidimensional Tensor input,
 we'll have to serve it "manually" with Flask.
 
 ## Serving: Flask
-cd serve
-sudo docker-compose up --build
+`cd serve`
+`sudo docker-compose up --build`
 
 The docker will be built and served.
 
