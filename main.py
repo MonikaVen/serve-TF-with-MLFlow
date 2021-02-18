@@ -4,6 +4,7 @@ import datetime
 import pandas as pd
 import tensorflow as tf
 import numpy as np
+import urllib3
 from tqdm import tqdm
 import cv2
 import gc
@@ -72,6 +73,10 @@ def get_photos(uuids, preprocessing_fn, photos_path):
         log_error("Failed to load the images.")
     return images
 
+def get_photo(uuid, photos_path, preprocessing_fn):
+    img = preprocessing_fn(cv2.resize(cv2.cvtColor(cv2.imread(f"{photos_path}/{uuid}.jpeg"), cv2.COLOR_BGR2RGB), (299, 299)))
+    return img
+
 def transform_data(train_df, enc):
     transformed = enc.fit_transform(np.split(train_df["cc3"].values, train_df["cc3"].shape[0]))
     transformed_flattened = list(map(int, list(itertools.chain(*transformed))))
@@ -85,10 +90,7 @@ def define_datasets(train_df, images, BATCH_SIZE):
     CC3_COUNT = len(train_df["cc3"].unique())
     DATASET_SIZE = train_df.shape[0]
     print(CC3_COUNT, DATASET_SIZE, BATCH_SIZE)
-    images_b64 = []
-    for img in images:
-        images_b64.append({"b64": img.decode("utf-8")})
-    X = tf.data.Dataset.from_tensor_slices(images_b64)
+    X = tf.data.Dataset.from_tensor_slices(images)
     y_category = tf.data.Dataset.from_tensor_slices(train_df["cc3_encoded"].values)
     y_sparkling = tf.data.Dataset.from_tensor_slices(train_df["sparkling"].values)
     y_floral = tf.data.Dataset.from_tensor_slices(train_df["floral"].values)
@@ -234,7 +236,7 @@ def fit_model(model, train_dataset, val_dataset, train_size, val_size, BATCH_SIZ
 def evaluate_model(test, model, enc, BATCH_SIZE, preprocessing_fn):
     try:
         log_debug("Evaluating models...")
-        test_imgs = get_photos_base64(test["uuid"].values.tolist(), preprocessing_fn, photos_path="photos")
+        test_imgs = get_photos(test["uuid"].values.tolist(), preprocessing_fn, photos_path="photos")
         predictions = model.predict(np.array(test_imgs), batch_size=BATCH_SIZE, verbose=True)
         np.sort(predictions[0][0:5, :], axis=1)[:, -1]
         np.argsort(predictions[0], axis=1)
@@ -293,21 +295,6 @@ def save_model(model, _id):
         log_error("Failed to save the mmodel.")
         return False
 
-def get_photos_base64(uuids, preprocessing_fn, photos_path):
-    images = []
-    try:
-        for uuid in tqdm(uuids, total=len(uuids)):
-            img = preprocessing_fn(cv2.resize(cv2.cvtColor(cv2.imread(f"{photos_path}/{uuid}.jpeg"), cv2.COLOR_BGR2RGB), (299, 299)))
-            images.append(img)
-        print("upload", len(uuids))
-        log_debug("Loaded images successfully.")
-        log_debug("Converting images.")      
-        images64 = [base64.urlsafe_b64encode(img) for img in images]
-        log_debug("Converted images successfully.")
-    except: 
-        log_error("Failed to load the images.")
-    print(len(images64))
-    return images64
 
 
 def main(argv):
@@ -331,7 +318,7 @@ def main(argv):
 
             uuids = train_df["uuid"].values.tolist()
             preprocessing_fn = tf.keras.applications.xception.preprocess_input
-            images = get_photos_base64(uuids, preprocessing_fn, "photos/")
+            images = get_photos(uuids, preprocessing_fn, "photos/")
             enc = OrdinalEncoder()
             train_df = transform_data(train_df, enc)
             train_dataset, val_dataset, train_size, val_size = define_datasets(train_df, images, BATCH_SIZE)

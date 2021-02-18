@@ -10,6 +10,8 @@ dependencies:
   - tensorflow=2.3.0
   - pandas=1.2.1
   - tqdm=4.38.0
+  - pyarrow==3.0.0
+  - urllib3==1.25.8
   - pip
   - pip:
     - mlflow==1.13.1
